@@ -1,0 +1,32 @@
+﻿@model ProjectManagement.Models.AssignedTask
+@{
+    ViewData["Title"] = "Assign Task";
+}
+
+<h2>Assign Task</h2>
+
+<form asp-action="Assign" method="post">
+    <div class="form-group">
+        <label asp-for="TaskListId">Task</label>
+        <select asp-for="TaskListId" asp-items="ViewBag.Tasks" class="form-control">
+            <option value="">-- Select Task --</option>
+        </select>
+        <span asp-validation-for="TaskListId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserId">Assign To</label>
+        <select asp-for="UserId" asp-items="ViewBag.Users" class="form-control">
+            <option value="">-- Select Employee --</option>
+        </select>
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DueDate"></label>
+        <input asp-for="DueDate" type="date" class="form-control" />
+        <span asp-validation-for="DueDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Assign</button>
+</form>

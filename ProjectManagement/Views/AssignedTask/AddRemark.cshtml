@@ -1,0 +1,24 @@
+﻿@model ProjectManagement.Models.AssignedTask
+
+<h2>Add Remark</h2>
+
+<form asp-action="AddRemark" method="post">
+    <input type="hidden" name="id" value="@Model.AssignedTaskId" />
+
+    <div class="form-group">
+        <label>Task</label>
+        <input value="@Model.Task.Title" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>User</label>
+        <input value="@Model.User.Name" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>Remark</label>
+        <textarea name="remarks" class="form-control">@Model.Remarks</textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Remark</button>
+</form>

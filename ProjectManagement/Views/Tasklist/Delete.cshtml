@@ -1,0 +1,14 @@
+﻿@model ProjectManagement.Models.Tasklist
+<h2>Delete Task</h2>
+<p>Are you sure you want to delete this task?</p>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="TasklistId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

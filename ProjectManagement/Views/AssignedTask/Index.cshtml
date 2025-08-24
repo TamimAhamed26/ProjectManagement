@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProjectManagement.Models.AssignedTask>
+@using ProjectManagement.Models
+@{
+    ViewData["Title"] = "Assigned Tasks";
+}
+
+<h2>Assigned Tasks</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Task Title</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+            <th>Due Date</th>
+            <th>Remarks</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Task.Title</td>
+                <td>@item.User?.Name ?? "Unassigned"</td>
+                <td>@item.Status</td>
+                <td>@item.DueDate.ToShortDateString()</td>
+                <td>@item.Remarks</td>
+                <td>
+                    @if (User.IsInRole("Employee") && item.UserId == User.FindFirst("sub")?.Value)
+                    {
+                        <form asp-action="UpdateStatus" method="post">
+                            <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                            <select name="newStatus">
+                                <option value="1">Pending</option>
+                                <option value="2">In Progress</option>
+                                <option value="3">Completed</option>
+                                <option value="4">Overdue</option>
+                            </select>
+                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                        </form>
+                    }
+
+                    @if ((User.IsInRole("Admin") || User.IsInRole("Manager")) && item.Status == ProjectManagement.Models.TaskStatus.Completed)
+                    {
+                        <form asp-action="AddRemarks" method="post">
+                            <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                            <input type="text" name="remarks" placeholder="Enter remarks" />
+                            <button type="submit" class="btn btn-sm btn-warning">Add</button>
+
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

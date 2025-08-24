@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ProjectManagement.Models.UserRolesViewModel
+@inject UserManager<ApplicationUser> UserManager
+
+<h2>Users</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Current Role</th>
+        <th>Assign Role</th>
+    </tr>
+
+    @{
+        var currentUserRoles = UserManager.GetRolesAsync(UserManager.GetUserAsync(User).Result).Result;
+        bool isSuperAdmin = currentUserRoles.Contains("SuperAdmin");
+        bool isAdmin = currentUserRoles.Contains("Admin");
+    }
+
+    @foreach (var user in Model.Users)
+    {
+        <tr>
+            <td>@user.Name</td>
+            <td>@user.Email</td>
+            <td>
+                @{
+                    string currentRole = null;
+                    if (Model.UserRoles.ContainsKey(user.Id))
+                        currentRole = Model.UserRoles[user.Id];
+                }
+                @if (!string.IsNullOrEmpty(currentRole))
+                {
+                    @currentRole
+                }
+                else
+                {
+                    <em>No role assigned</em>
+                }
+            </td>
+            <td>
+                <form asp-action="AssignRole" method="post" class="form-inline">
+                    <input type="hidden" name="userId" value="@user.Id" />
+                    <select name="roleName" class="form-control">
+                        @foreach (var role in Model.Roles)
+                        {
+                            if (!isSuperAdmin)
+                            {
+                                if (role.Name == "Admin" || role.Name == "SuperAdmin")
+                                    continue;
+                            }
+
+                            var isSelected = currentRole == role.Name ? "selected" : "";
+                            <option value="@role.Name" selected="@(isSelected == "selected" ? "selected" : null)">
+                                @role.Name
+                            </option>
+                        }
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-sm">Assign</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
