@@ -1,10 +1,17 @@
 ﻿@model ProjectManagement.Models.ApplicationUser
+
 @{
     ViewData["Title"] = "Edit Profile";
 }
+
 <h2>Edit Profile</h2>
 
-<form asp-action="Edit" method="post">
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="Id" />
 
     <div class="form-group">
@@ -12,10 +19,37 @@
         <input asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label asp-for="PhoneNo"></label>
         <input asp-for="PhoneNo" class="form-control" />
         <span asp-validation-for="PhoneNo" class="text-danger"></span>
     </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Picture">Profile Picture</label>
+        <input asp-for="Picture" type="file" class="form-control-file" />
+        <span asp-validation-for="Picture" class="text-danger"></span>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.PicturePath))
+    {
+        <div class="form-group">
+            <label>Current Picture:</label><br />
+            <img src="@Model.PicturePath" alt="Profile Picture" width="150" class="img-thumbnail" />
+        </div>
+    }
+
     <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

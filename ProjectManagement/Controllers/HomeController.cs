@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ProjectManagement.Models;
+using System.Diagnostics;
 
 namespace ProjectManagement.Controllers
 {

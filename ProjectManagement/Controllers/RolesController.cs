@@ -5,7 +5,7 @@ using ProjectManagement.Models;
 
 namespace ProjectManagement.Controllers
 {
-    [Authorize] 
+    [Authorize]
     public class RolesController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -16,7 +16,7 @@ namespace ProjectManagement.Controllers
             _roleManager = roleManager;
             _userManager = userManager;
         }
-        [Authorize(Roles = "SuperAdmin")] 
+        [Authorize(Roles = "SuperAdmin")]
         public IActionResult Index()
         {
             var roles = _roleManager.Roles.ToList();
@@ -30,23 +30,23 @@ namespace ProjectManagement.Controllers
 
             if (!currentUserRoles.Contains("SuperAdmin") && !currentUserRoles.Contains("Admin"))
             {
-                return Forbid(); 
+                return Forbid();
             }
 
             var users = _userManager.Users.ToList();
             var roles = _roleManager.Roles.ToList();
 
-            
+
             var filteredUsers = new List<ApplicationUser>();
             foreach (var user in users)
             {
                 var userRoles = await _userManager.GetRolesAsync(user);
 
-                
+
                 if (currentUserRoles.Contains("Admin") && userRoles.Contains("SuperAdmin"))
                     continue;
 
-               
+
                 if (currentUserRoles.Contains("Admin") && userRoles.Contains("Admin"))
                     continue;
 

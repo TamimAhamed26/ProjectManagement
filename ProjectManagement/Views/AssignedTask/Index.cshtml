@@ -6,7 +6,8 @@
 
 <h2>Assigned Tasks</h2>
 
-<table class="table">
+
+<table class="table table-bordered table-striped">
     <thead>
         <tr>
             <th>Task Title</th>
@@ -21,34 +22,41 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Task.Title</td>
-                <td>@item.User?.Name ?? "Unassigned"</td>
+                <td>@(item.Task?.Title ?? "N/A")</td>
+                <td>@(item.User?.Name ?? item.User?.UserName ?? "Unassigned")</td>
                 <td>@item.Status</td>
                 <td>@item.DueDate.ToShortDateString()</td>
                 <td>@item.Remarks</td>
                 <td>
-                    @if (User.IsInRole("Employee") && item.UserId == User.FindFirst("sub")?.Value)
+                   @if (User.IsInRole("Employee") && item.UserId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+{
+    <form asp-action="UpdateStatus" method="post" class="mb-1">
+        <input type="hidden" name="id" value="@item.AssignedTaskId" />
+        <select name="newStatus" class="form-control form-control-sm mb-1">
+            <option value="1" selected="@(item.Status == ProjectManagement.Models.TaskStatus.Pending ? "selected" : null)">Pending</option>
+            <option value="2" selected="@(item.Status == ProjectManagement.Models.TaskStatus.InProgress ? "selected" : null)">In Progress</option>
+            <option value="3" selected="@(item.Status == ProjectManagement.Models.TaskStatus.Completed ? "selected" : null)">Completed</option>
+            <option value="4" selected="@(item.Status == ProjectManagement.Models.TaskStatus.Overdue ? "selected" : null)">Overdue</option>
+        </select>
+        <button type="submit" class="btn btn-sm btn-primary">Update</button>
+    </form>
+}
+
+
+                    @* Only Admin/Manager can add remarks for completed tasks *@
+                    @if ((User.IsInRole("Admin") || User.IsInRole("Manager")) && item.Status == ProjectManagement.Models.TaskStatus.Completed)
                     {
-                        <form asp-action="UpdateStatus" method="post">
+                        <form asp-action="AddRemark" method="post">
                             <input type="hidden" name="id" value="@item.AssignedTaskId" />
-                            <select name="newStatus">
-                                <option value="1">Pending</option>
-                                <option value="2">In Progress</option>
-                                <option value="3">Completed</option>
-                                <option value="4">Overdue</option>
-                            </select>
-                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                            <input type="text" name="remark" placeholder="Enter remarks" class="form-control form-control-sm mb-1" />
+                            <button type="submit" class="btn btn-sm btn-warning">Add</button>
                         </form>
                     }
 
-                    @if ((User.IsInRole("Admin") || User.IsInRole("Manager")) && item.Status == ProjectManagement.Models.TaskStatus.Completed)
+                    @* SuperAdmin sees tasks but cannot add remarks *@
+                    @if (User.IsInRole("SuperAdmin"))
                     {
-                        <form asp-action="AddRemarks" method="post">
-                            <input type="hidden" name="id" value="@item.AssignedTaskId" />
-                            <input type="text" name="remarks" placeholder="Enter remarks" />
-                            <button type="submit" class="btn btn-sm btn-warning">Add</button>
-
-                        </form>
+                        <span class="text-muted">View Only</span>
                     }
                 </td>
             </tr>

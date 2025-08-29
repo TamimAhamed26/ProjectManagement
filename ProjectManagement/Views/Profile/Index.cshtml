@@ -1,5 +1,17 @@
 ﻿@model ProjectManagement.Models.ApplicationUser
+
 <h2>My Profile</h2>
+
+<div class="mb-3">
+    @if (!string.IsNullOrEmpty(Model.PicturePath))
+    {
+        <img src="@Model.PicturePath" alt="Profile Picture" width="150" class="img-thumbnail mb-3" />
+    }
+    else
+    {
+        <img src="/images/default-profile.png" alt="Default Profile Picture" width="150" class="img-thumbnail mb-3" />
+    }
+</div>
 
 <div>
     <p><strong>Name:</strong> @Model.Name</p>

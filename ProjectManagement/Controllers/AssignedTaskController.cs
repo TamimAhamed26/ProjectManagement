@@ -22,25 +22,83 @@ public class AssignedTaskController : Controller
     {
         var user = await _userManager.GetUserAsync(User);
 
-        if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+        // Get all roles for the user (could be multiple)
+        var roles = await _userManager.GetRolesAsync(user);
+        // Pick the first role, or show "No Role" if none
+        ViewBag.CurrentRole = roles.FirstOrDefault() ?? "No Role";
+
+        List<AssignedTask> tasks;
+
+        if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin") || User.IsInRole("Manager"))
         {
-            var allTasks = await _context.AssignedTasks
+            tasks = await _context.AssignedTasks
                 .Include(t => t.Task)
                 .Include(t => t.User)
                 .ToListAsync();
-            return View(allTasks);
         }
         else
         {
-            var myTasks = await _context.AssignedTasks
+            tasks = await _context.AssignedTasks
                 .Include(t => t.Task)
                 .Where(t => t.UserId == user.Id)
                 .ToListAsync();
-            return View(myTasks);
         }
+
+        return View(tasks);
     }
 
- 
+    [Authorize(Roles = "SuperAdmin,Admin")]
+    public async Task<IActionResult> Assign()
+    {
+        var tasks = await _context.Tasklists.ToListAsync();
+        var employees = await _userManager.GetUsersInRoleAsync("Employee");
+
+        var viewModel = new AssignTaskViewModel
+        {
+            Tasks = tasks.Select(t => new SelectListItem { Value = t.TasklistId.ToString(), Text = t.Title }).ToList(),
+            Employees = employees.Select(e => new SelectListItem { Value = e.Id, Text = e.UserName }).ToList(),
+            DueDate = DateTime.Now.AddDays(7) // default due date
+        };
+
+        return View(viewModel);
+    }
+
+    [HttpPost]
+
+    [Authorize(Roles = "SuperAdmin,Admin")]
+    public async Task<IActionResult> Assign(AssignTaskViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            var errors = ModelState.Values.SelectMany(v => v.Errors)
+                                          .Select(e => e.ErrorMessage)
+                                          .ToList();
+            TempData["Error"] = string.Join(" | ", errors);
+
+            model.Tasks = _context.Tasklists
+                .Select(t => new SelectListItem { Value = t.TasklistId.ToString(), Text = t.Title }).ToList();
+
+            model.Employees = (await _userManager.GetUsersInRoleAsync("Employee"))
+                .Select(e => new SelectListItem { Value = e.Id, Text = e.UserName }).ToList();
+
+            return View(model);
+        }
+
+
+        var assignedTask = new AssignedTask
+        {
+            TaskListId = model.TaskListId,
+            UserId = model.UserId,
+            AssignedDate = DateTime.Now,
+            DueDate = model.DueDate,
+            Status = ProjectManagement.Models.TaskStatus.Pending
+        };
+
+        _context.AssignedTasks.Add(assignedTask);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction(nameof(Index));
+    }
 
 
     //  Employee updates status 

@@ -1,14 +1,22 @@
-﻿@model ProjectManagement.Models.AssignedTask
+﻿@model ProjectManagement.Models.AssignTaskViewModel
 @{
     ViewData["Title"] = "Assign Task";
 }
 
 <h2>Assign Task</h2>
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
 
 <form asp-action="Assign" method="post">
+    @Html.AntiForgeryToken()
+
     <div class="form-group">
         <label asp-for="TaskListId">Task</label>
-        <select asp-for="TaskListId" asp-items="ViewBag.Tasks" class="form-control">
+        <select asp-for="TaskListId" asp-items="Model.Tasks" class="form-control">
             <option value="">-- Select Task --</option>
         </select>
         <span asp-validation-for="TaskListId" class="text-danger"></span>
@@ -16,7 +24,7 @@
 
     <div class="form-group">
         <label asp-for="UserId">Assign To</label>
-        <select asp-for="UserId" asp-items="ViewBag.Users" class="form-control">
+        <select asp-for="UserId" asp-items="Model.Employees" class="form-control">
             <option value="">-- Select Employee --</option>
         </select>
         <span asp-validation-for="UserId" class="text-danger"></span>

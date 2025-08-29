@@ -1,0 +1,107 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjectManagement.Models
+@using System.Security.Claims
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+@{
+    ApplicationUser? currentUser = null;
+    string pictureUrl = "/images/default-profile.png";
+    if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        currentUser = await UserManager.GetUserAsync(User);
+        if (!string.IsNullOrEmpty(currentUser?.PicturePath))
+        {
+            pictureUrl = currentUser.PicturePath!;
+        }
+    }
+}
+
+@{
+    string roleName = "";
+
+    if (User.Identity != null && User.Identity.IsAuthenticated)
+    {
+        var roleClaims = User.Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
+        if (roleClaims.Any())
+        {
+            roleName = string.Join(", ", roleClaims);
+        }
+    }
+}
+<nav class="app-header navbar navbar-expand bg-body border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+ 
+        <ul class="navbar-nav">
+            <!-- Sidebar toggle -->
+            <li class="nav-item">
+                <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
+                    <i class="bi bi-list"></i>
+                </a>
+            </li>
+
+        
+            <li class="nav-item d-none d-md-block">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+                <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </li>
+        </ul>
+
+        <!-- Right Navbar -->
+        <ul class="navbar-nav ms-auto">
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <!-- User Info -->
+                <li class="nav-item dropdown user-menu">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <img src="@pictureUrl"
+                             class="user-image rounded-circle shadow"
+                             alt="User Image"
+                             style="width:32px; height:32px; object-fit:cover;" />
+                        <span class="d-none d-md-inline">
+                            @User.Identity.Name
+                            @if (!string.IsNullOrEmpty(roleName))
+                            {
+                                <strong> (@roleName)</strong>
+                            }
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+                        <!-- User Header -->
+                        <li class="user-header text-bg-primary">
+                            <img src="@pictureUrl"
+                                 class="rounded-circle shadow"
+                                 alt="User Image" />
+                            <p>
+                                @User.Identity.Name
+                                @if (!string.IsNullOrEmpty(roleName))
+                                {
+                                    <small>@roleName</small>
+                                }
+                            </p>
+                        </li>
+                        <!-- User Footer -->
+                        <li class="user-footer">
+                            <a asp-area="Identity" asp-page="/Account/Manage/Index" class="btn btn-default btn-flat">Profile</a>
+                            <form asp-area="Identity" asp-page="/Account/Logout"
+                                  asp-route-returnUrl="@Url.Action("Index", "Home")"
+                                  method="post" class="d-inline">
+                                <button type="submit" class="btn btn-default btn-flat float-end">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
