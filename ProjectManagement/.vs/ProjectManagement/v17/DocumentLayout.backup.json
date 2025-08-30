@@ -1,26 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\Project\\ProjectManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|J:\\Project\\ProjectManagement\\node_modules\\admin-lte\\dist\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\admin-lte\\dist\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|c:\\users\\admin\\desktop\\new folder\\projectmanagement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\New folder\\AdminLTE-4.0.0-rc4\\dist\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +37,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index3.html",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\node_modules\\admin-lte\\dist\\index3.html",
-              "RelativeDocumentMoniker": "node_modules\\admin-lte\\dist\\index3.html",
-              "ToolTip": "J:\\Project\\ProjectManagement\\node_modules\\admin-lte\\dist\\index3.html",
-              "RelativeToolTip": "node_modules\\admin-lte\\dist\\index3.html",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-29T21:21:57.888Z",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Models\\ApplicationDbInitializer.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbInitializer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Models\\ApplicationDbInitializer.cs",
+              "RelativeToolTip": "Models\\ApplicationDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T07:43:15.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T07:32:42.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_navbar.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\Shared\\_navbar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_navbar.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\Shared\\_navbar.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_navbar.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAB4AAAADAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T20:43:12.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_sidebar.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_sidebar.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_sidebar.cshtml",
-              "ViewState": "AgIAAGsBAAAAAAAAAAAcwM4BAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T20:39:53.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_footer.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\Shared\\_footer.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_footer.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\Shared\\_footer.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T20:36:09.792Z",
+              "WhenOpened": "2025-08-30T07:31:38.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADwAAAAWAAAAAAAAAA==",
+              "Title": "_sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_sidebar.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_sidebar.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T16:09:22.511Z",
+              "WhenOpened": "2025-08-30T07:20:20.47Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_navbar.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_navbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_navbar.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T07:17:52.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-30T06:31:08.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index3.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\New folder\\AdminLTE-4.0.0-rc4\\dist\\index3.html",
+              "RelativeDocumentMoniker": "..\\AdminLTE-4.0.0-rc4\\dist\\index3.html",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\New folder\\AdminLTE-4.0.0-rc4\\dist\\index3.html",
+              "RelativeToolTip": "..\\AdminLTE-4.0.0-rc4\\dist\\index3.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-30T06:28:09.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             }
           ]
         }

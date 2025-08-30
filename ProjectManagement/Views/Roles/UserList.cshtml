@@ -1,7 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model ProjectManagement.Models.UserRolesViewModel
 @inject UserManager<ApplicationUser> UserManager
-
+<div class="app-content">
+    <!--begin::Container-->
+    <div class="container-fluid">
+        <!--begin::Row-->
+        <div class="row">
 <h2>Users</h2>
 
 @if (TempData["Error"] != null)
@@ -67,3 +71,4 @@
         </tr>
     }
 </table>
+</div></div></div>

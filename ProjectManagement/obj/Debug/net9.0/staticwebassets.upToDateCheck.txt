@@ -108,77 +108,78 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\Pictures\6a45f484-0784-4ed9-a2e4-deaebba139ae.jpg
-J:\Project\ProjectManagement\wwwroot\css\site.css
-J:\Project\ProjectManagement\wwwroot\favicon.ico
-J:\Project\ProjectManagement\wwwroot\js\site.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-J:\Project\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation\dist\additional-methods.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery-validation\LICENSE.md
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.min.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.min.map
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.min.js
-J:\Project\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.min.map
-J:\Project\ProjectManagement\wwwroot\lib\jquery\LICENSE.txt
-J:\Project\ProjectManagement\wwwroot\css\adminlte.css
-J:\Project\ProjectManagement\wwwroot\css\adminlte.css.map
-J:\Project\ProjectManagement\wwwroot\css\adminlte.min.css
-J:\Project\ProjectManagement\wwwroot\css\adminlte.min.css.map
-J:\Project\ProjectManagement\wwwroot\css\adminlte.rtl.css
-J:\Project\ProjectManagement\wwwroot\css\adminlte.rtl.css.map
-J:\Project\ProjectManagement\wwwroot\css\adminlte.rtl.min.css
-J:\Project\ProjectManagement\wwwroot\css\adminlte.rtl.min.css.map
-J:\Project\ProjectManagement\wwwroot\js\adminlte.js
-J:\Project\ProjectManagement\wwwroot\js\adminlte.js.map
-J:\Project\ProjectManagement\wwwroot\js\adminlte.min.js
-J:\Project\ProjectManagement\wwwroot\js\adminlte.min.js.map
+wwwroot\Pictures\870a71b5-c8e4-4675-8742-626afd9c679f.jpeg
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\js\site.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\js\adminlte.min.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\js\adminlte.min.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\js\adminlte.js.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\js\adminlte.js
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\favicon.ico
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\site.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.rtl.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.rtl.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.rtl.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.rtl.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.min.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.min.css
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.css.map
+C:\Users\Admin\Desktop\New folder\ProjectManagement\wwwroot\css\adminlte.css

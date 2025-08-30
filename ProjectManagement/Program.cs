@@ -29,7 +29,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+    await ApplicationDbInitializer.SeedRolesAndUsersAsync(roleManager, userManager);
+}
 app.UseAuthentication();//before Authorization
 app.UseAuthorization();
 
