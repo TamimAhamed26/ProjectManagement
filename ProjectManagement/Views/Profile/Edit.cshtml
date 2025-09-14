@@ -12,10 +12,6 @@
 
                <h2 class="mb-4 text-center">Edit Profile</h2>
 
-               @if (TempData["SuccessMessage"] != null)
-               {
-                  <div class="alert alert-success">@TempData["SuccessMessage"]</div>
-               }
 
                <form asp-action="Edit" method="post" enctype="multipart/form-data">
                   <input type="hidden" asp-for="Id" />
@@ -38,21 +34,24 @@
                      <span asp-validation-for="Email" class="text-danger small"></span>
                   </div>
 
-                        <div class="mb-4">
-                            <img src="@(string.IsNullOrEmpty(Model.PicturePath) ? "/Images/default-profile.png" : Model.PicturePath)"
-                                 alt="Profile Picture"
-                                 class="rounded-circle img-thumbnail"
-                                 style="width: 150px; height: 150px; object-fit: cover;" />
-                        </div>
-
+                    
 
                   @if (!string.IsNullOrEmpty(Model.PicturePath))
                   {
                      <div class="mb-4 text-center">
                         <label class="form-label d-block">Current Picture:</label>
-                        <img src="@Model.PicturePath" alt="Profile Picture" class="img-thumbnail rounded-circle" style="width: 120px; height: 120px; object-fit: cover;" />
+                                <img src="@(string.IsNullOrEmpty(Model.PicturePath) ? "/Images/default-profile.png" : Model.PicturePath)"
+                                     alt="Profile Picture"
+                                     class="rounded-circle img-thumbnail"
+                                     style="width: 150px; height: 150px; object-fit: cover;" />
                      </div>
                   }
+                        <div class="mb-4">
+                            <label class="form-label">Upload New Picture</label>
+                            <input asp-for="Picture" type="file" class="form-control" accept=".jpg,.jpeg,.png" />
+                            <span asp-validation-for="Picture" class="text-danger small"></span>
+                        </div>
+
 
                   <div class="d-grid gap-2">
                      <button type="submit" class="btn btn-primary btn-lg">Save</button>

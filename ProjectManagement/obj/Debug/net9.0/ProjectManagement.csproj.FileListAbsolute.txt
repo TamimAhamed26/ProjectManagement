@@ -1352,3 +1352,4 @@ J:\Project\ProjectManagement\obj\Debug\net9.0\refint\ProjectManagement.dll
 J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.pdb
 J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.genruntimeconfig.cache
 J:\Project\ProjectManagement\obj\Debug\net9.0\ref\ProjectManagement.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
