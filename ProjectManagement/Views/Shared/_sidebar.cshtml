@@ -35,23 +35,71 @@
 
                 @if (User.Identity != null && User.Identity.IsAuthenticated) {
 
-    @if(User.IsInRole("SuperAdmin") || (User.IsInRole("Admin")))
+
+                    @if (User.IsInRole("SuperAdmin") || (User.IsInRole("Admin")))
+                    {
+                        <li class="nav-item">
+                            <li class="nav-item">
+                                <a href="/Department" class="nav-link">
+                                    <i class="nav-icon bi bi-building"></i>
+                                    <p>Department</p>
+                                </a>
+                            </li>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Categories" class="nav-link">
+                                <i class="nav-icon bi bi-folder2-open"></i>
+                                <p>Category</p>
+                            </a>
+                        </li>
+
+
+
+
+                        <li class="nav-item">
+                            <a href="/Tasklist" class="nav-link">
+                                <i class="nav-icon bi bi-card-checklist"></i>
+                                <p>Task Lists</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon bi bi-person-check-fill"></i>
+                                <p>
+                                    Assigned Tasks
+                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="/AssignedTask/AIndex" class="nav-link">
+                                        <i class="nav-icon bi bi-list-task"></i>
+                                        <p>Assigned Task List</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/AssignedTask/Assign" class="nav-link">
+                                        <i class="nav-icon bi bi-plus-circle"></i>
+                                        <p>Assign Task</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+    @if (User.IsInRole("Employee"))
     {
-                    <li class="nav-item">
-                        <a href="/Tasklist" class="nav-link">
-                            <i class="nav-icon bi bi-card-checklist"></i>
-                            <p>Task Lists</p>
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a href="/AssignedTask/EIndex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     " class="nav-link">
+                                <i class="nav-icon bi bi-building"></i>
+                                <p>My Tasks</p>
+                            </a>
+                        </li>
+
+                        </li>
     }
-                    <li class="nav-item">
-                        <a href="/AssignedTask" class="nav-link">
-                            <i class="nav-icon bi bi-person-check-fill"></i>
-                            <p>Assigned Tasks</p>
-                        </a>
-                    </li>
-
-
                     @if (User.IsInRole("SuperAdmin"))
                     {
 

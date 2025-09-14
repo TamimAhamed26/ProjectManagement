@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\ProjectManagement.csproj": {}
+    "J:\\Project\\ProjectManagement\\ProjectManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\ProjectManagement.csproj": {
+    "J:\\Project\\ProjectManagement\\ProjectManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\ProjectManagement.csproj",
+        "projectUniqueName": "J:\\Project\\ProjectManagement\\ProjectManagement.csproj",
         "projectName": "ProjectManagement",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\ProjectManagement.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\New folder\\ProjectManagement\\obj\\",
+        "projectPath": "J:\\Project\\ProjectManagement\\ProjectManagement.csproj",
+        "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
+        "outputPath": "J:\\Project\\ProjectManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\vs shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GIGABYTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

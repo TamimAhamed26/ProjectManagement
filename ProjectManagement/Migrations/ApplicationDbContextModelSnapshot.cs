@@ -167,6 +167,9 @@ namespace ProjectManagement.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("DepartmentId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -221,6 +224,8 @@ namespace ProjectManagement.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DepartmentId");
+
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
 
@@ -240,18 +245,32 @@ namespace ProjectManagement.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssignedTaskId"));
 
+                    b.Property<string>("AssignedById")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<DateTime>("AssignedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ReferenceFilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReferenceLink")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Remarks")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("SubmissionFilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SubmissionLink")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("SubmitDate")
                         .HasColumnType("datetime2");
@@ -265,11 +284,54 @@ namespace ProjectManagement.Migrations
 
                     b.HasKey("AssignedTaskId");
 
+                    b.HasIndex("AssignedById");
+
                     b.HasIndex("TaskListId");
 
                     b.HasIndex("UserId");
 
                     b.ToTable("AssignedTasks");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<int?>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("CategoryId");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Department", b =>
+                {
+                    b.Property<int>("DepartmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DepartmentId"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("DepartmentId");
+
+                    b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("ProjectManagement.Models.Tasklist", b =>
@@ -279,6 +341,9 @@ namespace ProjectManagement.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TasklistId"));
+
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .HasMaxLength(200)
@@ -290,6 +355,8 @@ namespace ProjectManagement.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("TasklistId");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Tasklists");
                 });
@@ -345,8 +412,21 @@ namespace ProjectManagement.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ProjectManagement.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("ProjectManagement.Models.Department", "Department")
+                        .WithMany("Users")
+                        .HasForeignKey("DepartmentId");
+
+                    b.Navigation("Department");
+                });
+
             modelBuilder.Entity("ProjectManagement.Models.AssignedTask", b =>
                 {
+                    b.HasOne("ProjectManagement.Models.ApplicationUser", "AssignedBy")
+                        .WithMany()
+                        .HasForeignKey("AssignedById");
+
                     b.HasOne("ProjectManagement.Models.Tasklist", "Task")
                         .WithMany("AssignedTasks")
                         .HasForeignKey("TaskListId")
@@ -359,9 +439,41 @@ namespace ProjectManagement.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("AssignedBy");
+
                     b.Navigation("Task");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Category", b =>
+                {
+                    b.HasOne("ProjectManagement.Models.Department", "Department")
+                        .WithMany("Categories")
+                        .HasForeignKey("DepartmentId");
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Tasklist", b =>
+                {
+                    b.HasOne("ProjectManagement.Models.Category", "Category")
+                        .WithMany("Tasklists")
+                        .HasForeignKey("CategoryId");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Category", b =>
+                {
+                    b.Navigation("Tasklists");
+                });
+
+            modelBuilder.Entity("ProjectManagement.Models.Department", b =>
+                {
+                    b.Navigation("Categories");
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("ProjectManagement.Models.Tasklist", b =>

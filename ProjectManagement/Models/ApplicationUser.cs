@@ -14,8 +14,11 @@ namespace ProjectManagement.Models
 
         [StringLength(200, ErrorMessage = "Path cannot be longer than 200 characters.")]
         public string? PicturePath { get; set; }
-
+      
         [NotMapped]
         public IFormFile? Picture { get; set; }
+
+        public int? DepartmentId { get; set; }
+        public Department? Department { get; set; }
     }
 }

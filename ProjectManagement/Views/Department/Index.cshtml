@@ -1,0 +1,340 @@
+﻿@{
+    ViewData["Title"] = "Departments";
+}
+
+<h2>Departments</h2>
+
+<button class="btn btn-primary mb-3" onclick="openCreateModal()">Add Department</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Users</th>
+            <th>Categories</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="deptTableBody">
+    </tbody>
+</table>
+
+<!-- Department Modal -->
+<div class="modal fade" id="deptModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="deptForm">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deptModalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="deptId" name="DepartmentId" />
+                    <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" id="deptName" name="Name" class="form-control" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Add User Modal -->
+<div class="modal fade" id="addUserModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="addUserForm">
+                <div class="modal-header">
+                    <h5 class="modal-title">Assign User to Department</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="addUserDeptId" />
+                    <div class="mb-3">
+                        <label>Select User</label>
+                        <select id="unassignedUsers" class="form-select"></select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Assign</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Add Category Modal -->
+<div class="modal fade" id="addCategoryModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="addCategoryForm">
+                <div class="modal-header">
+                    <h5 class="modal-title">Assign Category</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="addCategoryDeptId" />
+                    <div class="mb-3">
+                        <label>Select Existing Category</label>
+                        <select id="unassignedCategories" class="form-select"></select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", loadDepartments);
+
+        async function loadDepartments() {
+            const res = await fetch('/Department/GetDepartments');
+            const data = await res.json();
+            renderDepartments(data);
+        }
+
+        function renderDepartments(departments) {
+            const tbody = document.getElementById("deptTableBody");
+            tbody.innerHTML = "";
+
+            departments.forEach(d => {
+                const row = `
+                    <tr id="row-${d.departmentId}">
+                        <td>${d.name}</td>
+                        <td><a href="javascript:void(0);" onclick="toggleUsers(${d.departmentId})">${d.users.length}</a></td>
+                        <td><a href="javascript:void(0);" onclick="toggleCategories(${d.departmentId})">${d.categories.length}</a></td>
+                        <td>
+                            <button class="btn btn-sm btn-warning" onclick="openEditModal(${d.departmentId}, '${d.name}')">Edit</button>
+                            <button class="btn btn-sm btn-danger" onclick="deleteDepartment(${d.departmentId})">Delete</button>
+                        </td>
+                    </tr>
+
+                    <!-- Users expanded row -->
+                    <tr id="users-${d.departmentId}" style="display:none;">
+                        <td colspan="4">
+                            <strong>Users:</strong>
+                            <ul id="user-list-${d.departmentId}" class="mb-1">
+                                ${d.users.length ? d.users.map(u => `
+                                    <li id="user-${u.id}">
+                                        ${u.name} (${u.userName})
+                                        <button class="btn btn-sm btn-danger ms-1" style="padding:1px 5px;font-size:0.8rem;" onclick="deleteUser('${u.id}', ${d.departmentId})">Delete</button>
+                                    </li>`).join("") : "<em>No users</em>"}
+                            </ul>
+                            <div class="mt-1">
+                                <button class="btn btn-sm btn-primary" style="padding:2px 6px;font-size:0.8rem;" onclick="addUsers(${d.departmentId})">Add user</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Categories expanded row -->
+                    <tr id="categories-${d.departmentId}" style="display:none;">
+                        <td colspan="4">
+                            <strong>Categories:</strong>
+                            ${d.categories.length ? "<ul class='mb-1'>" + d.categories.map(c => `
+                                <li id="category-${c.categoryId}">
+                                    ${c.name}
+                                    <button class="btn btn-sm btn-danger ms-1" style="padding:1px 5px;font-size:0.8rem;" onclick="deleteCategory(${c.categoryId}, ${d.departmentId})">Delete</button>
+                                </li>`).join("") + "</ul>" : "<em>No categories</em>"}
+                            <div class="mt-1">
+                                <button class="btn btn-sm btn-primary" style="padding:2px 6px;font-size:0.8rem;" onclick="addCategory(${d.departmentId})">Add category</button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+                tbody.insertAdjacentHTML("beforeend", row);
+            });
+        }
+
+        // Delete user
+        async function deleteUser(userId, deptId) {
+            if (!confirm("Remove this user from the department?")) return;
+
+            const res = await fetch(`/Department/DeleteUser/${userId}`, { method: "POST" });
+            const data = await res.json();
+
+            if (data.success) {
+                document.getElementById(`user-${userId}`)?.remove();
+                const countCell = document.querySelector(`#row-${deptId} td:nth-child(2) a`);
+                countCell.textContent = parseInt(countCell.textContent) - 1;
+
+                const list = document.getElementById(`user-list-${deptId}`);
+                if (!list.querySelector("li")) list.innerHTML = "<em>No users</em>";
+            } else {
+                alert(data.message || "Failed to remove user from department");
+            }
+        }
+
+        // Add user
+        async function addUsers(departmentId) {
+            document.getElementById("addUserDeptId").value = departmentId;
+
+            const res = await fetch("/Roles/GetUnassignedUsers");
+            const users = await res.json();
+
+            const select = document.getElementById("unassignedUsers");
+            select.innerHTML = "";
+
+            if (users.length === 0) {
+                select.innerHTML = "<option value=''>No unassigned users available</option>";
+            } else {
+                users.forEach(u => {
+                    const option = document.createElement("option");
+                    option.value = u.id;
+                    option.text = `${u.name} (${u.userName}) - ${u.role}`;
+                    select.appendChild(option);
+                });
+            }
+
+            new bootstrap.Modal(document.getElementById("addUserModal")).show();
+        }
+
+        document.getElementById("addUserForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const deptId = document.getElementById("addUserDeptId").value;
+            const userId = document.getElementById("unassignedUsers").value;
+
+            if (!userId) { alert("Please select a user."); return; }
+
+            const res = await fetch("/Roles/AssignUserToDepartment", {
+                method: "POST",
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `userId=${userId}&departmentId=${deptId}`
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                const list = document.getElementById(`user-list-${deptId}`);
+                if (list.querySelector("em")) list.innerHTML = "";
+
+                list.insertAdjacentHTML("beforeend", `
+                    <li id="user-${userId}">
+                        ${document.querySelector("#unassignedUsers option:checked").text}
+                        <button class="btn btn-sm btn-danger ms-1" style="padding:1px 5px;font-size:0.8rem;" onclick="deleteUser('${userId}', ${deptId})">Delete</button>
+                    </li>
+                `);
+
+                const countCell = document.querySelector(`#row-${deptId} td:nth-child(2) a`);
+                countCell.textContent = parseInt(countCell.textContent) + 1;
+
+                bootstrap.Modal.getInstance(document.getElementById("addUserModal")).hide();
+            } else {
+                alert(data.message || "Failed to assign user");
+            }
+        });
+
+        // Add category (only select existing)
+        async function addCategory(departmentId) {
+            document.getElementById("addCategoryDeptId").value = departmentId;
+
+            const res = await fetch("/Categories/GetUnassignedCategories");
+            const categories = await res.json();
+
+            const select = document.getElementById("unassignedCategories");
+            if (categories.length === 0) {
+                select.innerHTML = "<option value=''>No unassigned categories available</option>";
+            } else {
+                select.innerHTML = "<option value=''>-- Select existing category --</option>";
+                categories.forEach(c => {
+                    const option = document.createElement("option");
+                    option.value = c.categoryId;
+                    option.text = c.name;
+                    select.appendChild(option);
+                });
+            }
+
+            new bootstrap.Modal(document.getElementById("addCategoryModal")).show();
+        }
+
+        document.getElementById("addCategoryForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const deptId = document.getElementById("addCategoryDeptId").value;
+            const selectedId = document.getElementById("unassignedCategories").value;
+
+            if (!selectedId) { alert("Please select a category."); return; }
+
+            const res = await fetch("/Categories/AssignCategoryToDepartment", {
+                method: "POST",
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `categoryId=${selectedId}&departmentId=${deptId}`
+            });
+            const data = await res.json();
+
+            if (data.success) {
+                const catRow = document.querySelector(`#categories-${deptId} td`);
+                let ul = catRow.querySelector("ul");
+                if (!ul) {
+                    catRow.innerHTML = "<ul class='mb-1'></ul><div class='mt-1'><button class='btn btn-sm btn-primary' style='padding:2px 6px;font-size:0.8rem;' onclick='addCategory(" + deptId + ")'>Add category</button></div>";
+                    ul = catRow.querySelector("ul");
+                }
+
+                ul.insertAdjacentHTML("beforeend", `
+                    <li id="category-${data.categoryId}">
+                        ${data.name}
+                        <button class="btn btn-sm btn-danger ms-1" style="padding:1px 5px;font-size:0.8rem;" onclick="deleteCategory(${data.categoryId}, ${deptId})">Delete</button>
+                    </li>
+                `);
+
+                const countCell = document.querySelector(`#row-${deptId} td:nth-child(3) a`);
+                countCell.textContent = parseInt(countCell.textContent) + 1;
+
+                bootstrap.Modal.getInstance(document.getElementById("addCategoryModal")).hide();
+            } else {
+                alert(data.message || "Failed to add category");
+            }
+        });
+
+        // Delete category
+        async function deleteCategory(categoryId, deptId) {
+            if (!confirm("Remove this category from the department?")) return;
+
+            const res = await fetch(`/Department/DeleteCategory/${categoryId}`, { method: "POST" });
+            const data = await res.json();
+
+            if (data.success) {
+                document.getElementById(`category-${categoryId}`)?.remove();
+
+                const countCell = document.querySelector(`#row-${deptId} td:nth-child(3) a`);
+                countCell.textContent = parseInt(countCell.textContent) - 1;
+
+                const ul = document.querySelector(`#categories-${deptId} ul`);
+                if (!ul.querySelector("li")) ul.innerHTML = "<em>No categories</em>";
+            } else {
+                alert(data.message || "Failed to remove category");
+            }
+        }
+
+        // Expand/Collapse
+        function toggleUsers(id) { const row = document.getElementById("users-" + id); row.style.display = row.style.display === "none" ? "" : "none"; }
+        function toggleCategories(id) { const row = document.getElementById("categories-" + id); row.style.display = row.style.display === "none" ? "" : "none"; }
+
+        // Department CRUD
+        function openCreateModal() { document.getElementById("deptModalTitle").innerText = "Add Department"; document.getElementById("deptId").value = ""; document.getElementById("deptName").value = ""; new bootstrap.Modal(document.getElementById("deptModal")).show(); }
+        function openEditModal(id,name) { document.getElementById("deptModalTitle").innerText="Edit Department"; document.getElementById("deptId").value=id; document.getElementById("deptName").value=name; new bootstrap.Modal(document.getElementById("deptModal")).show(); }
+
+        document.getElementById("deptForm").addEventListener("submit", async e => {
+            e.preventDefault();
+            const id=document.getElementById("deptId").value, name=document.getElementById("deptName").value;
+            if(id){ await fetch("/Department/EditAjax",{ method:"POST", headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:`departmentId=${id}&name=${encodeURIComponent(name)}`}); }
+            else { await fetch("/Department/CreateAjax",{ method:"POST", headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:`Name=${encodeURIComponent(name)}`}); }
+            bootstrap.Modal.getInstance(document.getElementById("deptModal")).hide();
+            loadDepartments();
+        });
+
+        async function deleteDepartment(id){
+            if(!confirm("Are you sure you want to delete this department?")) return;
+            await fetch("/Department/DeleteAjax",{ method:"POST", headers:{'Content-Type':'application/x-www-form-urlencoded'}, body:`id=${id}` });
+            loadDepartments();
+        }
+    </script>
+}

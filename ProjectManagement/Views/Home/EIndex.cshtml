@@ -1,0 +1,109 @@
+﻿@model IEnumerable<ProjectManagement.Models.AssignedTask>
+@using Microsoft.AspNetCore.Identity
+@using ProjectManagement.Models
+@inject UserManager<ApplicationUser> UserManager
+@{
+    var userName = "Guest";
+    if (User.Identity?.IsAuthenticated == true)
+    {
+        var user = await UserManager.GetUserAsync(User);
+        if (user != null)
+        {
+            userName = user.Name;
+        }
+    }
+}
+<h2 class="mb-4 fw-bold text-primary"> Welcome, @userName</h2>
+
+@{
+    ViewData["Title"] = "Employee Dashboard";
+
+    var pendingCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.Pending);
+    var inProgressCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.InProgress);
+    var completedCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.Completed);
+    var pendingConfirmationCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation);
+    var overdueCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.Overdue);
+}
+
+<!-- Overview Cards -->
+<div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+    <div class="card shadow-sm border-0 text-center p-2" style="width: 130px;">
+        <div class="card-body">
+            <h6 class="fw-bold text-secondary">Pending</h6>
+            <h4 class="fw-bold">@pendingCount</h4>
+        </div>
+    </div>
+    <div class="card shadow-sm border-0 text-center p-2" style="width: 130px;">
+        <div class="card-body">
+            <h6 class="fw-bold text-warning">In Progress</h6>
+            <h4 class="fw-bold">@inProgressCount</h4>
+        </div>
+    </div>
+    <div class="card shadow-sm border-0 text-center p-2" style="width: 130px;">
+        <div class="card-body">
+            <h6 class="fw-bold" style="color: #87cefa;">PendingConfirmation</h6>
+            <h4 class="fw-bold" style="color: #87cefa;">@pendingConfirmationCount</h4>
+        </div>
+    </div>
+    <div class="card shadow-sm border-0 text-center p-2" style="width: 130px;">
+        <div class="card-body">
+            <h6 class="fw-bold text-success">Completed</h6>
+            <h4 class="fw-bold">@completedCount</h4>
+        </div>
+    </div>
+    <div class="card shadow-sm border-0 text-center p-2" style="width: 130px;">
+        <div class="card-body">
+            <h6 class="fw-bold text-danger">Overdue</h6>
+            <h4 class="fw-bold">@overdueCount</h4>
+        </div>
+    </div>
+</div>
+
+
+<!-- Calendar -->
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <h5 class="fw-bold mb-3">📅 Task Calendar</h5>
+        <div id="calendar"></div>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                height: "auto",
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                },
+                events: [
+                    @foreach (var task in Model)
+                    {
+                            <text>
+                            {
+                                title: '@(task.Task?.Title ?? "Untitled Task")',
+                                start: '@task.DueDate.ToString("yyyy-MM-dd")',
+            url: 'https://localhost:7057/AssignedTask/EIndex?taskId=@task.AssignedTaskId',
+                                            color: '@(
+                                                     task.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation ? "#87cefa" :
+                                                     task.Status == ProjectManagement.Models.TaskStatus.Pending ? "#6c757d" :
+                                        task.Status == ProjectManagement.Models.TaskStatus.InProgress ? "#ffc107" :
+                                        task.Status == ProjectManagement.Models.TaskStatus.Completed ? "#198754" :
+                                        task.Status == ProjectManagement.Models.TaskStatus.Overdue ? "#dc3545" : "#0d6efd"
+                                                )'
+                        },
+                        </text>
+                                }
+                ]
+            });
+            calendar.render();
+        });
+    </script>
+}

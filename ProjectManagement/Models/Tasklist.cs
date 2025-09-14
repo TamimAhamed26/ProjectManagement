@@ -11,8 +11,15 @@ namespace ProjectManagement.Models
         [StringLength(200, ErrorMessage = "Description must be less than or equal to 200 characters.")]
         public string? Description { get; set; }
 
-        //Navigation property
-        public ICollection<AssignedTask> AssignedTasks { get; set; } = new List<AssignedTask>();
+     
+      public int? CategoryId { get; set; }
+
+
+      public   Category? Category { get; set; }
+
+
+     
+      public ICollection<AssignedTask> AssignedTasks { get; set; } = new List<AssignedTask>();
 
     }
 }

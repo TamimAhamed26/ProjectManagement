@@ -1,0 +1,25 @@
+﻿@model ProjectManagement.Models.AssignedTask
+
+<h2>Review Task</h2>
+
+<form asp-action="ReviewTask" method="post">
+    <input type="hidden" name="id" value="@Model.AssignedTaskId" />
+
+    <div class="form-group">
+        <label>Task</label>
+        <input value="@Model.Task.Title" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>User</label>
+        <input value="@Model.User.UserName" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>Remark (optional)</label>
+        <textarea name="remark" class="form-control">@Model.Remarks</textarea>
+    </div>
+
+    <button type="submit" name="confirm" value="true" class="btn btn-success">Confirm Completion</button>
+    <button type="submit" name="reject" value="true" class="btn btn-danger">Reject Task</button>
+</form>

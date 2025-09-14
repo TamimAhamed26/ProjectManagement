@@ -1,64 +1,71 @@
 ﻿@model ProjectManagement.Models.ApplicationUser
 
 @{
-    ViewData["Title"] = "Edit Profile";
-}
-<div class="app-content">
-    <!--begin::Container-->
-    <div class="container-fluid">
-        <!--begin::Row-->
-        <div class="row">
-<h2>Edit Profile</h2>
-
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+   ViewData["Title"] = "Edit Profile";
 }
 
-<form asp-action="Edit" method="post" enctype="multipart/form-data">
-    <input type="hidden" asp-for="Id" />
+<div class="container py-5">
+   <div class="row justify-content-center">
+      <div class="col-lg-6">
+         <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
 
-    <div class="form-group">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
+               <h2 class="mb-4 text-center">Edit Profile</h2>
 
-    <div class="form-group">
-        <label asp-for="PhoneNo"></label>
-        <input asp-for="PhoneNo" class="form-control" />
-        <span asp-validation-for="PhoneNo" class="text-danger"></span>
-    </div>
+               @if (TempData["SuccessMessage"] != null)
+               {
+                  <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+               }
 
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
+               <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                  <input type="hidden" asp-for="Id" />
 
-    <div class="form-group">
-        <label asp-for="Picture">Profile Picture</label>
-        <input asp-for="Picture" type="file" class="form-control-file" />
-        <span asp-validation-for="Picture" class="text-danger"></span>
-    </div>
+                  <div class="form-floating mb-3">
+                     <input asp-for="Name" class="form-control" placeholder="Full Name" />
+                     <label asp-for="Name">Full Name</label>
+                     <span asp-validation-for="Name" class="text-danger small"></span>
+                  </div>
 
-    @if (!string.IsNullOrEmpty(Model.PicturePath))
-    {
-        <div class="form-group">
-            <label>Current Picture:</label><br />
-            <img src="@Model.PicturePath" alt="Profile Picture" width="150" class="img-thumbnail" />
-        </div>
-    }
+                  <div class="form-floating mb-3">
+                     <input asp-for="PhoneNo" class="form-control" placeholder="Phone Number" />
+                     <label asp-for="PhoneNo">Phone Number</label>
+                     <span asp-validation-for="PhoneNo" class="text-danger small"></span>
+                  </div>
 
-    <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
-</form>
+                  <div class="form-floating mb-3">
+                     <input asp-for="Email" class="form-control" placeholder="Email" />
+                     <label asp-for="Email">Email</label>
+                     <span asp-validation-for="Email" class="text-danger small"></span>
+                  </div>
+
+                        <div class="mb-4">
+                            <img src="@(string.IsNullOrEmpty(Model.PicturePath) ? "/Images/default-profile.png" : Model.PicturePath)"
+                                 alt="Profile Picture"
+                                 class="rounded-circle img-thumbnail"
+                                 style="width: 150px; height: 150px; object-fit: cover;" />
+                        </div>
+
+
+                  @if (!string.IsNullOrEmpty(Model.PicturePath))
+                  {
+                     <div class="mb-4 text-center">
+                        <label class="form-label d-block">Current Picture:</label>
+                        <img src="@Model.PicturePath" alt="Profile Picture" class="img-thumbnail rounded-circle" style="width: 120px; height: 120px; object-fit: cover;" />
+                     </div>
+                  }
+
+                  <div class="d-grid gap-2">
+                     <button type="submit" class="btn btn-primary btn-lg">Save</button>
+                     <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                  </div>
+               </form>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+   <partial name="_ValidationScriptsPartial" />
 }
-</div>
-        <!--end::Row-->
-    </div>
-    <!--end::Container-->
-</div>

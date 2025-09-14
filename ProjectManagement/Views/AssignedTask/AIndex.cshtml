@@ -1,0 +1,332 @@
+﻿@model IEnumerable<ProjectManagement.Models.AssignedTask>
+@using ProjectManagement.Models
+@{
+    ViewData["Title"] = "Assigned Tasks";
+    bool isSuperAdmin = User.IsInRole("SuperAdmin");
+    bool isAdminOrManager = User.IsInRole("Admin") || User.IsInRole("Manager");
+}
+
+<div class="app-content">
+    <div class="container-fluid">
+        <h2 class="mb-4 text-primary">Assigned Tasks</h2>
+
+        <!-- Alerts -->
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+                <i class="bi bi-exclamation-circle"></i> @TempData["Error"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+                <i class="bi bi-check-circle"></i> @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        <!-- Filters -->
+        <div class="row mb-3 g-2 align-items-center">
+            <div class="col-md-3">
+                <label for="statusFilter" class="form-label fw-semibold">Filter by Status</label>
+                <select id="statusFilter" class="form-select form-select-sm">
+                    <option value="">-- All --</option>
+                    @foreach (var status in Enum.GetValues(typeof(ProjectManagement.Models.TaskStatus)))
+                    {
+                        <option value="@status">@status</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <!-- Task Table Card -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body p-0">
+                <table class="table table-hover table-bordered align-middle mb-0 text-center" id="taskTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Task Title</th>
+                            <th>Assigned To</th>
+                            <th>Status</th>
+                            <th>Due Date</th>
+                            <th>Admin Reference</th>
+                            <th>Employee Submission</th>
+                            <th>Remarks</th>
+
+                            @if (isSuperAdmin)
+                            {
+                                <th>Assigned By</th>
+                            }
+                            else if (isAdminOrManager)
+                            {
+                                <th>Actions</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            var rowClass = item.Status == ProjectManagement.Models.TaskStatus.Completed ? "table-success" : "";
+                            <tr class="@rowClass" data-status="@item.Status">
+                                <td class="fw-semibold">
+                                    @if (item.Task != null && !string.IsNullOrWhiteSpace(item.Task.Title))
+                                    {
+                                        @item.Task.Title
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Untitled Task</span>
+                                    }
+                            </td>
+
+                            <td>@(item.User?.Name ?? item.User?.UserName ?? "Unassigned")</td>
+
+                            <td>
+                                <span class="badge rounded-pill
+                                            @(item.Status == ProjectManagement.Models.TaskStatus.Pending ? "bg-secondary" :
+                                                                                                              item.Status == ProjectManagement.Models.TaskStatus.InProgress ? "bg-warning text-dark" :
+                                                                                                              item.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation ? "bg-info text-dark" :
+                                                                                                              item.Status == ProjectManagement.Models.TaskStatus.Completed ? "bg-success" :
+                                                                                                              "bg-danger")">
+                                    @item.Status
+                                </span>
+                            </td>
+
+                                <!-- Due Date -->
+                                <td>
+                                @if (isAdminOrManager && item.Status != ProjectManagement.Models.TaskStatus.Completed)
+                                    {
+                                        <div class="d-flex justify-content-center align-items-center gap-1">
+                                            <span class="due-date-text">@item.DueDate.ToShortDateString()</span>
+                                            <i class="bi bi-pencil-square text-primary cursor-pointer edit-icon" style="cursor:pointer;"></i>
+
+                                            <form asp-action="UpdateDueDate" method="post" class="d-flex gap-1 update-date-form d-none">
+                                                <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                                                <input type="date" name="dueDate" value="@item.DueDate:yyyy-MM-dd"
+                                                       class="form-control form-control-sm" style="max-width: 130px;" />
+                                                <button type="submit" class="btn btn-sm btn-primary">
+                                                    <i class="bi bi-check-circle"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-sm btn-secondary cancel-btn">
+                                                    <i class="bi bi-x-circle"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        @item.DueDate.ToShortDateString()
+                                    }
+                                </td>
+
+                                <!-- Admin Reference -->
+                                <td class="text-start">
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                                        <div class="reference-display d-flex align-items-center gap-2">
+                                            @if (!string.IsNullOrEmpty(item.ReferenceFilePath))
+                                            {
+                                                <a href="@item.ReferenceFilePath" target="_blank" class="btn btn-sm btn-outline-primary">
+                                                    <i class="bi bi-file-earmark-text"></i> View File
+                                                </a>
+                                            }
+                                            else if (!string.IsNullOrEmpty(item.ReferenceLink))
+                                            {
+                                                <a href="@item.ReferenceLink" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                                    <i class="bi bi-link-45deg"></i> Open Link
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted small">No reference</span>
+                                            }
+
+                                            @if (isAdminOrManager )
+                                            {
+                                                <i class="bi bi-pencil-square text-primary cursor-pointer edit-ref-icon"
+                                                   style="cursor:pointer;" title="Edit Reference"></i>
+                                            }
+                                        </div>
+
+                                        <!-- Inline Form -->
+                                        @if (isAdminOrManager || isSuperAdmin)
+                                        {
+                                            <form asp-action="UpdateReference" method="post" enctype="multipart/form-data"
+                                                  class="update-ref-form d-none w-100">
+                                                <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                                                <div class="input-group input-group-sm mb-1">
+                                                    <input type="file" name="ReferenceFile" class="form-control"
+                                                           accept=".jpg,.jpeg,.png,.pdf,.docx" />
+                                                </div>
+                                                <div class="input-group input-group-sm mb-1">
+                                                    <input type="url" name="ReferenceLink" class="form-control"
+                                                           placeholder="https://example.com" />
+                                                </div>
+                                                <div class="d-flex gap-1">
+                                                    <button type="submit" class="btn btn-sm btn-primary">
+                                                        <i class="bi bi-check-circle"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-sm btn-secondary cancel-ref-btn">
+                                                        <i class="bi bi-x-circle"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        }
+                                    </div>
+                                </td>
+
+                                <!-- Employee Submission -->
+                                <td class="text-start">
+                                    @if (!string.IsNullOrEmpty(item.SubmissionFilePath))
+                                    {
+                                        <a href="@item.SubmissionFilePath" target="_blank" class="btn btn-sm btn-outline-success mb-1 w-100">
+                                            <i class="bi bi-file-earmark-arrow-up"></i> View File
+                                        </a>
+                                    }
+                                    else if (!string.IsNullOrEmpty(item.SubmissionLink))
+                                    {
+                                        <a href="@item.SubmissionLink" target="_blank" class="btn btn-sm btn-outline-info mb-1 w-100">
+                                            <i class="bi bi-link-45deg"></i> Open Link
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted small">Not submitted</span>
+                                    }
+                                </td>
+
+                                <!-- Remarks -->
+                                <td style="white-space: pre-wrap; min-width: 150px;">
+                                    <div class="small text-wrap">
+                                        @item.Remarks
+                                    </div>
+                                    @if (isAdminOrManager && item.Status != ProjectManagement.Models.TaskStatus.Completed)
+                                    {
+                                        <form asp-action="AddAdminRemark" method="post" class="mt-2 d-flex gap-1">
+                                            <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                                            <input type="text" name="remark" placeholder="Add remark..." class="form-control form-control-sm" />
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary">
+                                                <i class="bi bi-chat-left-text"></i>
+                                            </button>
+                                        </form>
+                                    }
+                                </td>
+
+                                <!-- Actions or AssignedBy -->
+                                @if (isSuperAdmin)
+                                {
+                                    <td>
+                                        @(item.AssignedBy?.Name ?? item.AssignedBy?.UserName ?? "Unknown")
+                                    </td>
+                                }
+
+                                else if (isAdminOrManager)
+                                {
+                                    <td class="d-flex flex-column gap-1">
+                                        @* Review *@
+                                        @if (item.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation)
+                                        {
+                                            <form asp-action="ReviewTask" method="post" class="d-flex gap-1 flex-column">
+                                                <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                                                <div class="d-flex gap-1">
+                                                    <button type="submit" name="confirm" value="true" class="btn btn-sm btn-success w-50">
+                                                        <i class="bi bi-check-circle"></i> Accept
+                                                    </button>
+                                                    <button type="submit" name="reject" value="true" class="btn btn-sm btn-danger w-50">
+                                                        <i class="bi bi-x-circle"></i> Reject
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        }
+
+                                        @* Unassign *@
+                                        @if (item.Status == ProjectManagement.Models.TaskStatus.Pending ||
+                                                                        item.Status == ProjectManagement.Models.TaskStatus.Overdue)
+                                        {
+                                            <form asp-action="Unassign" method="post">
+                                                <input type="hidden" name="id" value="@item.AssignedTaskId" />
+                                                <button type="submit" class="btn btn-sm btn-danger w-100">
+                                                    <i class="bi bi-x-lg"></i> Unassign
+                                                </button>
+                                            </form>
+                                        }
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const statusFilter = document.getElementById("statusFilter");
+        const taskRows = document.querySelectorAll("#taskTable tbody tr");
+
+        statusFilter.addEventListener("change", () => {
+            const selected = statusFilter.value;
+            taskRows.forEach(row => {
+                const rowStatus = row.getAttribute("data-status");
+                row.style.display = (!selected || selected === rowStatus) ? "" : "none";
+            });
+        });
+
+
+            document.querySelectorAll(".edit-icon").forEach(icon => {
+            icon.addEventListener("click", function () {
+                const container = icon.closest("div");
+                container.querySelector(".due-date-text").classList.add("d-none");
+                icon.classList.add("d-none");
+                container.querySelector(".update-date-form").classList.remove("d-none");
+            });
+        });
+             // Toggle Reference Edit Mode
+        document.querySelectorAll(".edit-ref-icon").forEach(icon => {
+            icon.addEventListener("click", function () {
+                const container = icon.closest("td");
+                container.querySelector(".reference-display").classList.add("d-none");
+                container.querySelector(".update-ref-form").classList.remove("d-none");
+            });
+        });
+
+        document.querySelectorAll(".cancel-ref-btn").forEach(btn => {
+            btn.addEventListener("click", function () {
+                const container = btn.closest("td");
+                container.querySelector(".reference-display").classList.remove("d-none");
+                container.querySelector(".update-ref-form").classList.add("d-none");
+            });
+        });
+        document.querySelectorAll(".cancel-btn").forEach(btn => {
+            btn.addEventListener("click", function () {
+                const container = btn.closest("div");
+                container.querySelector(".due-date-text").classList.remove("d-none");
+                container.querySelector(".edit-icon").classList.remove("d-none");
+                container.querySelector(".update-date-form").classList.add("d-none");
+            });
+        });
+    </script>
+}
+
+<style>
+    table td, table th {
+        vertical-align: middle;
+        font-size: 0.875rem;
+    }
+
+    table th {
+        font-weight: 600;
+    }
+
+    .btn-sm {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.4rem;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        padding: 0.35em 0.65em;
+    }
+</style>

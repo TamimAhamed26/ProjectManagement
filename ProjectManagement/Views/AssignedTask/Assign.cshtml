@@ -1,45 +1,280 @@
 ﻿@model ProjectManagement.Models.AssignTaskViewModel
 @{
-    ViewData["Title"] = "Assign Task";
-}
-<div class="app-content">
-    <!--begin::Container-->
-    <div class="container-fluid">
-        <!--begin::Row-->
-        <div class="row">
-<h2>Assign Task</h2>
-@if (TempData["Error"] != null)
-{
-    <div class="alert alert-danger">
-        @TempData["Error"]
-    </div>
+    ViewData["Title"] = "Assign Task ";
 }
 
-<form asp-action="Assign" method="post">
-    @Html.AntiForgeryToken()
+<h2 class="mb-4 text-primary">Assign Task</h2>
 
-    <div class="form-group">
-        <label asp-for="TaskListId">Task</label>
-        <select asp-for="TaskListId" asp-items="Model.Tasks" class="form-control">
-            <option value="">-- Select Task --</option>
-        </select>
-        <span asp-validation-for="TaskListId" class="text-danger"></span>
+<div id="alert-placeholder"></div>
+
+<div class="card shadow-sm p-4 mb-5">
+    <div class="row g-3">
+        <!-- Department -->
+        <div class="col-md-3">
+            <label class="form-label fw-semibold">Department</label>
+            <select id="departmentSelect" class="form-select">
+                <option value="">-- Select Department --</option>
+                @foreach (var d in Model.Departments)
+                {
+                    <option value="@d.Value">@d.Text</option>
+                }
+            </select>
+        </div>
+
+        <!-- Employee -->
+        <div class="col-md-3">
+            <label class="form-label fw-semibold">Employee</label>
+            <select id="employeeSelect" class="form-select">
+                <option value="">-- Select Employee --</option>
+            </select>
+        </div>
+
+        <!-- Category -->
+        <div class="col-md-3">
+            <label class="form-label fw-semibold">Category</label>
+            <select id="categorySelect" class="form-select">
+                <option value="">-- Select Category --</option>
+            </select>
+        </div>
+
+        <!-- Task -->
+        <div class="col-md-3">
+            <label class="form-label fw-semibold">Task</label>
+            <select id="taskSelect" class="form-select">
+                <option value="">-- Select Task --</option>
+            </select>
+        </div>
     </div>
 
-    <div class="form-group">
-        <label asp-for="UserId">Assign To</label>
-        <select asp-for="UserId" asp-items="Model.Employees" class="form-control">
-            <option value="">-- Select Employee --</option>
-        </select>
-        <span asp-validation-for="UserId" class="text-danger"></span>
-    </div>
+    <div class="row g-3 mt-3">
+        <!-- Due Date -->
+        <div class="col-md-3 d-flex flex-column">
+            <label class="form-label fw-semibold">Due Date</label>
+            <input type="date" id="dueDate" class="form-control"
+                   value="@Model.DueDate.ToString("yyyy-MM-dd")" />
+        </div>
 
-    <div class="form-group">
-        <label asp-for="DueDate"></label>
-        <input asp-for="DueDate" type="date" class="form-control" />
-        <span asp-validation-for="DueDate" class="text-danger"></span>
-    </div>
+        <!-- Reference File/Link -->
+        <div class="col-md-6">
+            <label class="form-label fw-semibold">Reference</label>
+            <div class="input-group">
+                <input type="file" id="referenceFile" name="ReferenceFile"
+                       class="form-control"
+                       accept=".jpg,.jpeg,.png,.pdf,.docx" />
 
-    <button type="submit" class="btn btn-success">Assign</button>
-</form>
-</div></div></div>
+                <input type="url" id="referenceLink" name="ReferenceLink"
+                       class="form-control d-none"
+                       placeholder="https://example.com" />
+
+                <span class="input-group-text">
+                    <div class="form-check form-check-inline mb-0">
+                        <input class="form-check-input" type="radio" name="referenceOption" id="refFileOption" value="file" checked>
+                        <label class="form-check-label" for="refFileOption">
+                            <i class="bi bi-paperclip"></i>
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline mb-0">
+                        <input class="form-check-input" type="radio" name="referenceOption" id="refLinkOption" value="link">
+                        <label class="form-check-label" for="refLinkOption">
+                            <i class="bi bi-link-45deg"></i>
+                        </label>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <!-- Assign Task Button -->
+    <div class="row g-3 mt-3">
+    <div class="col-md-3 d-flex align-items-end">
+        <button id="assignBtn" class="btn btn-success w-100">
+            <i class="bi bi-check-circle me-2"></i> Assign Task
+        </button>
+    </div>
+</div>
+</div>
+@section Scripts {
+    <script>
+        const assignBtn = document.getElementById("assignBtn");
+        const fileInput = document.getElementById("referenceFile");
+        const linkInput = document.getElementById("referenceLink");
+        const fileOption = document.getElementById("refFileOption");
+        const linkOption = document.getElementById("refLinkOption");
+        const alertContainer = document.getElementById("alert-placeholder");
+
+        let alertMessages = {}; 
+
+        function updateAlerts() {
+            alertContainer.innerHTML = "";
+            for (const key in alertMessages) {
+                const { message, type } = alertMessages[key];
+                const div = document.createElement("div");
+                div.className = `alert alert-${type} alert-dismissible fade show`;
+                div.role = "alert";
+                div.innerHTML = `${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`;
+                alertContainer.appendChild(div);
+            }
+        }
+
+        function setAlert(key, message, type = "danger") {
+            if (message) {
+                alertMessages[key] = { message, type };
+            } else {
+                delete alertMessages[key];
+            }
+            updateAlerts();
+        }
+
+        // Toggle reference input
+        fileOption.addEventListener("change", () => {
+            fileInput.classList.remove("d-none");
+            linkInput.classList.add("d-none");
+            linkInput.value = "";
+        });
+        linkOption.addEventListener("change", () => {
+            linkInput.classList.remove("d-none");
+            fileInput.classList.add("d-none");
+            fileInput.value = "";
+        });
+
+        assignBtn.disabled = true;
+
+        function validateForm() {
+            const deptId = document.getElementById("departmentSelect").value;
+            const empId = document.getElementById("employeeSelect").value;
+            const categoryId = document.getElementById("categorySelect").value;
+            const taskId = document.getElementById("taskSelect").value;
+            const dueDate = document.getElementById("dueDate").value;
+            assignBtn.disabled = !(deptId && empId && categoryId && taskId && dueDate);
+        }
+
+        ["departmentSelect", "employeeSelect", "categorySelect", "taskSelect", "dueDate"].forEach(id => {
+            document.getElementById(id).addEventListener("change", validateForm);
+            document.getElementById(id).addEventListener("input", validateForm);
+        });
+
+        // Department -> Employee & Category
+        document.getElementById("departmentSelect").addEventListener("change", function () {
+            const deptId = this.value;
+            const employeeSelect = document.getElementById("employeeSelect");
+            const categorySelect = document.getElementById("categorySelect");
+            const taskSelect = document.getElementById("taskSelect");
+
+            employeeSelect.innerHTML = "<option value=''>-- Select Employee --</option>";
+            categorySelect.innerHTML = "<option value=''>-- Select Category --</option>";
+            taskSelect.innerHTML = "<option value=''>-- Select Task --</option>";
+            validateForm();
+
+            setAlert("employee", ""); 
+            setAlert("category", ""); 
+
+            if (!deptId) return;
+
+            // Load Employees
+            fetch(`/AssignedTask/GetEmployeesByDepartment?departmentId=${deptId}`)
+                .then(res => res.json())
+                .then(res => {
+                    if (!res.length) {
+                        setAlert("employee", `No employee found. <a href='/Department' class='alert-link'>Add here</a>.`, "warning");
+                    } else {
+                        res.forEach(e => {
+                            const opt = document.createElement("option");
+                            opt.value = e.id;
+                            opt.text = e.userName;
+                            employeeSelect.add(opt);
+                        });
+                    }
+                });
+
+            // Load Categories
+            fetch(`/AssignedTask/GetCategoriesByDepartment?departmentId=${deptId}`)
+                .then(res => res.json())
+                .then(res => {
+                    if (!res.length) {
+                        setAlert("category", `No category found. <a href='/Department' class='alert-link'>Add here</a>.`, "warning");
+                    } else {
+                        res.forEach(c => {
+                            const opt = document.createElement("option");
+                            opt.value = c.categoryId;
+                            opt.text = c.name;
+                            categorySelect.add(opt);
+                        });
+                    }
+                });
+        });
+
+        // Category -> Tasks
+        document.getElementById("categorySelect").addEventListener("change", function () {
+            const categoryId = this.value;
+            const taskSelect = document.getElementById("taskSelect");
+            taskSelect.innerHTML = "<option>Loading...</option>";
+            validateForm();
+
+            setAlert("task", ""); // clear previous task alert
+
+            if (!categoryId) {
+                taskSelect.innerHTML = "<option value=''>-- Select Task --</option>";
+                return;
+            }
+
+            fetch(`/AssignedTask/GetTasksByCategory?categoryId=${categoryId}`)
+                .then(res => res.json())
+                .then(res => {
+                    taskSelect.innerHTML = "<option value=''>-- Select Task --</option>";
+                    if (!res.length) {
+                        setAlert("task", `No task available. <a href='/Tasklist' class='alert-link'>Add first</a>.`, "warning");
+                    } else {
+                        res.forEach(t => {
+                            const opt = document.createElement("option");
+                            opt.value = t.tasklistId;
+                            opt.text = t.title;
+                            taskSelect.add(opt);
+                        });
+                    }
+                });
+        });
+
+        // Assign Task
+        assignBtn.addEventListener("click", function () {
+            const deptId = document.getElementById("departmentSelect").value;
+            const empId = document.getElementById("employeeSelect").value;
+            const categoryId = document.getElementById("categorySelect").value;
+            const taskId = document.getElementById("taskSelect").value;
+            const dueDate = document.getElementById("dueDate").value;
+            const selectedOption = document.querySelector("input[name='referenceOption']:checked").value;
+            const file = fileInput.files[0];
+            const link = linkInput.value;
+
+            if (!deptId || !empId || !categoryId || !taskId || !dueDate) {
+                setAlert("assign", "Please make sure all selections are valid before assigning.", "warning");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("DepartmentId", deptId);
+            formData.append("UserId", empId);
+            formData.append("CategoryId", categoryId);
+            formData.append("TaskListId", taskId);
+            formData.append("DueDate", dueDate);
+            if (selectedOption === "file" && file) formData.append("ReferenceFile", file);
+            if (selectedOption === "link" && link) formData.append("ReferenceLink", link);
+
+            fetch('@Url.Action("Assign", "AssignedTask")', { method: "POST", body: formData })
+                .then(res => {
+                    if (res.redirected) {
+                        setAlert("assign", "Task assigned successfully!", "success");
+                        document.getElementById("departmentSelect").value = "";
+                        document.getElementById("employeeSelect").innerHTML = "<option value=''>-- Select Employee --</option>";
+                        document.getElementById("categorySelect").innerHTML = "<option value=''>-- Select Category --</option>";
+                        document.getElementById("taskSelect").innerHTML = "<option value=''>-- Select Task --</option>";
+                        document.getElementById("dueDate").value = new Date().toISOString().slice(0, 10);
+                        fileInput.value = "";
+                        linkInput.value = "";
+                        assignBtn.disabled = true;
+                    } else return res.text();
+                })
+                .then(text => { if (text) setAlert("assign", "Task assignment failed.", "danger"); });
+        });
+    </script>
+}

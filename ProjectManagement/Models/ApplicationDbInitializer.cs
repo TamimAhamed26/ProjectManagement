@@ -21,6 +21,13 @@ public static class ApplicationDbInitializer
         await CreateUserWithRole(userManager, "admin@example.com", "Admin123!", "Admin");
         await CreateUserWithRole(userManager, "manager@example.com", "Manager123!", "Manager");
         await CreateUserWithRole(userManager, "employee@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "employee1@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "employee2@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "employee3@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "employee4@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "employee5@example.com", "Employee123!", "Employee");
+        await CreateUserWithRole(userManager, "admin2@example.com", "Admin123!", "Admin");
+
     }
 
     private static async Task CreateUserWithRole(UserManager<ApplicationUser> userManager, string email, string password, string role)
@@ -44,7 +51,6 @@ public static class ApplicationDbInitializer
             }
             else
             {
-                // Handle creation errors
                 throw new Exception($"Failed to create {role} user: {string.Join(", ", result.Errors.Select(e => e.Description))}");
             }
         }

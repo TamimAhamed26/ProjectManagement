@@ -10,8 +10,10 @@ namespace ProjectManagement.Data
             : base(options)
         {
         }
+      public DbSet<Category> Categories { get; set; }
+      public DbSet<Tasklist> Tasklists { get; set; }
+      public DbSet<AssignedTask> AssignedTasks { get; set; }
+      public DbSet<Department> Departments { get; set; }
 
-        public DbSet<Tasklist> Tasklists { get; set; }
-        public DbSet<AssignedTask> AssignedTasks { get; set; }
     }
 }

@@ -6,13 +6,18 @@ namespace ProjectManagement.Models
     public enum TaskStatus
     {
         Pending = 1,
-        InProgress,
-        Completed,
-        Overdue
+        InProgress = 2,
+        Completed = 3,
+        Overdue = 4,
+        PendingConfirmation = 5
     }
+
     public class AssignedTask
     {
         public int AssignedTaskId { get; set; }
+
+        public string? AssignedById { get; set; }   
+        public virtual ApplicationUser? AssignedBy { get; set; }
 
         [ForeignKey("Task")]
         public int TaskListId { get; set; }
@@ -31,12 +36,39 @@ namespace ProjectManagement.Models
 
         public TaskStatus Status { get; set; } = TaskStatus.Pending;
 
-        [StringLength(50)]
         public string? Remarks { get; set; }
 
-        // Navigation properties
+
+        public string? ReferenceFilePath { get; set; }   
+        [NotMapped]
+        public IFormFile? ReferenceFile { get; set; }    //by admin
+        public string? ReferenceLink { get; set; }
+
+        public string? SubmissionFilePath { get; set; }  
+        [NotMapped]
+        public IFormFile? SubmissionFile { get; set; }   //  by employee
+
+        public string? SubmissionLink { get; set; }
+
         public virtual Tasklist Task { get; set; }
         public virtual ApplicationUser User { get; set; }
+
+
+
+        public void UpdateOverdueStatus()
+        {
+            if ((Status == TaskStatus.InProgress || Status == TaskStatus.PendingConfirmation)
+                && DueDate.Date < DateTime.Today)
+            {
+                Status = TaskStatus.Overdue;
+            }
+            else { 
+                if (Status == TaskStatus.Overdue && DueDate.Date >= DateTime.Today)
+                {
+                    Status = TaskStatus.InProgress;  
+                }
+            }
+        }
 
     }
 

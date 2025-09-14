@@ -5,7 +5,8 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @{
     ApplicationUser? currentUser = null;
-    string pictureUrl = "/images/default-profile.png";
+    string pictureUrl = "/Pictures/default-profile.png"; 
+
     if (User.Identity != null && User.Identity.IsAuthenticated)
     {
         currentUser = await UserManager.GetUserAsync(User);
@@ -15,6 +16,7 @@
         }
     }
 }
+
 
 @{
     string roleName = "";
@@ -83,13 +85,14 @@
                         </li>
                         <!-- User Footer -->
                         <li class="user-footer">
-                            <a asp-area="Identity" asp-page="/Account/Manage/Index" class="btn btn-default btn-flat">Profile</a>
+                            <a asp-controller="Profile" asp-action="Index" class="btn btn-default btn-flat">Profile</a>
                             <form asp-area="Identity" asp-page="/Account/Logout"
                                   asp-route-returnUrl="@Url.Action("Index", "Home")"
                                   method="post" class="d-inline">
                                 <button type="submit" class="btn btn-default btn-flat float-end">Logout</button>
                             </form>
                         </li>
+
                     </ul>
                 </li>
             }

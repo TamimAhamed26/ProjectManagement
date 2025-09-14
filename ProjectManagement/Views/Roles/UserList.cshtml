@@ -1,74 +1,102 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model ProjectManagement.Models.UserRolesViewModel
 @inject UserManager<ApplicationUser> UserManager
-<div class="app-content">
-    <!--begin::Container-->
-    <div class="container-fluid">
-        <!--begin::Row-->
-        <div class="row">
-<h2>Users</h2>
 
-@if (TempData["Error"] != null)
-{
-    <div class="alert alert-danger">@TempData["Error"]</div>
+@{
+    ViewData["Title"] = "User Roles";
+    var currentUserRoles = UserManager.GetRolesAsync(UserManager.GetUserAsync(User).Result).Result;
+    bool isSuperAdmin = currentUserRoles.Contains("SuperAdmin");
 }
 
-<table class="table table-striped">
-    <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Current Role</th>
-        <th>Assign Role</th>
-    </tr>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h2 class="mb-4">Assign Roles to Users</h2>
 
-    @{
-        var currentUserRoles = UserManager.GetRolesAsync(UserManager.GetUserAsync(User).Result).Result;
-        bool isSuperAdmin = currentUserRoles.Contains("SuperAdmin");
-        bool isAdmin = currentUserRoles.Contains("Admin");
-    }
+                    @if (TempData["Error"] != null)
+                    {
+                        <div class="alert alert-danger">@TempData["Error"]</div>
+                    }
 
-    @foreach (var user in Model.Users)
-    {
-        <tr>
-            <td>@user.Name</td>
-            <td>@user.Email</td>
-            <td>
-                @{
-                    string currentRole = null;
-                    if (Model.UserRoles.ContainsKey(user.Id))
-                        currentRole = Model.UserRoles[user.Id];
-                }
-                @if (!string.IsNullOrEmpty(currentRole))
-                {
-                    @currentRole
-                }
-                else
-                {
-                    <em>No role assigned</em>
-                }
-            </td>
-            <td>
-                <form asp-action="AssignRole" method="post" class="form-inline">
-                    <input type="hidden" name="userId" value="@user.Id" />
-                    <select name="roleName" class="form-control">
-                        @foreach (var role in Model.Roles)
-                        {
-                            if (!isSuperAdmin)
+                    <table class="table table-striped table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Current Role</th>
+                                <th>Assign Role</th>
+                                <th>Assign Department</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model.Users)
                             {
-                                if (role.Name == "Admin" || role.Name == "SuperAdmin")
-                                    continue;
-                            }
+                                var currentRole = Model.UserRoles.ContainsKey(user.Id) ? Model.UserRoles[user.Id] : null;
+                                <tr>
+                                    <td>@user.Name</td>
+                                    <td>@user.Email</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(currentRole))
+                                        {
+                                            <span class="badge bg-secondary">@currentRole</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted"><em>No role assigned</em></span>
+                                        }
+                                    </td>
 
-                            var isSelected = currentRole == role.Name ? "selected" : "";
-                            <option value="@role.Name" selected="@(isSelected == "selected" ? "selected" : null)">
-                                @role.Name
-                            </option>
-                        }
-                    </select>
-                    <button type="submit" class="btn btn-primary btn-sm">Assign</button>
-                </form>
-            </td>
-        </tr>
-    }
-</table>
-</div></div></div>
+                                    <form asp-action="AssignRole" method="post">
+                                        <input type="hidden" name="userId" value="@user.Id" />
+
+                                    <td>
+                                        <select name="roleName" class="form-select">
+                                            <option value="">-- Select Role --</option>  
+                                            @foreach (var role in Model.Roles)
+                                            {
+                                                if (!isSuperAdmin && (role.Name == "Admin" || role.Name == "SuperAdmin"))
+                                                {
+                                                    continue;
+                                                }
+
+                                                <option value="@role.Name" selected="@(currentRole == role.Name ? "selected" : null)">
+                                                    @role.Name
+                                                </option>
+                                            }
+                                        </select>
+                                    </td>
+
+
+                                    <td>
+                                        @if (currentRole == "Manager" || currentRole == "Employee")
+                                        {
+                                            <select name="departmentId" class="form-select">
+                                                <option value="">--Select Department--</option>
+                                                @foreach (var dept in Model.Departments)
+                                                {
+                                                    <option value="@dept.DepartmentId"
+                                                            selected="@(Model.UserDepartments.ContainsKey(user.Id) && Model.UserDepartments[user.Id] == dept.DepartmentId ? "selected" : null)">
+                                                        @dept.Name
+                                                    </option>
+                                                }
+                                            </select>
+                                        }
+                                    </td>
+
+                                    <td>
+                                        <button type="submit" class="btn btn-sm btn-primary">Assign</button>
+                                    </td>
+                                    </form>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

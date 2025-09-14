@@ -1,454 +1,3 @@
-J:\Project\ProjectManagement\bin\Debug\net9.0\appsettings.Development.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\appsettings.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.runtime.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.endpoints.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.exe
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.deps.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.runtimeconfig.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.pdb
-J:\Project\ProjectManagement\bin\Debug\net9.0\Azure.Core.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Azure.Identity.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Humanizer.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.ClientModel.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.CodeDom.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Convention.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Memory.Data.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.AssemblyReference.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\rpswa.dswa.cache.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.GeneratedMSBuildEditorConfig.editorconfig
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfoInputs.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfo.cs
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.CoreCompileInputs.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cs
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cs
-J:\Project\ProjectManagement\obj\Debug\net9.0\rjimswa.dswa.cache.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\bundle\ProjectManagement.styles.css
-J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\projectbundle\ProjectManagement.bundle.scp.css
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\6224n93caw-b9sayid5wm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2rct17bi3h-61n19gt1b8.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2nz3zoai8s-xtxxf3hu2r.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\klbd5rkez4-bqjiyaj88i.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xir4wb3plb-c2jlpeoesf.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vy35kyi9bj-erw9l3u2r3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\dzsu2abbyt-aexeepp0ev.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pusgcnizdy-d7shbmvgxk.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\jbi0wivfcx-ausgxo2sd3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tkv49p4bpp-k8d9w2qqmf.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xdeo3uivuk-cosvhxvwiu.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bhvezxzws5-ub07r2b239.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wse34dbqh5-fvhpjtyr6v.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xbpp620cnh-b7pk76d08c.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nj04ge42ll-fsbi9cje9m.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\p8k6qlvtsq-rzd6atqjts.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ea4br7ivzw-ee0r1s7dh0.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ul6mhk758b-dxx9fxp4il.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\g08a6q4rel-jd9uben2k1.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\755q644ra4-khv3u5hwcm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d3g8utiexh-r4e9w2rdcm.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rrhnkg87xs-lcd1t2u6c8.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4xaxqxk6fb-c2oey78nd0.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ih9hm5qg5m-tdbxkamptv.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zci1ubye0z-j5mq2jizvt.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\91dkzxhxh1-06098lyss8.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\259zinroj7-nvvlpmu67g.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\cmbpu5mqkb-s35ty4nyc5.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4jf19fbmn1-pj5nd1wqec.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\gtk0kxx2fl-46ein0sx1k.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\jjalr4hwr3-v0zj4ognzu.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qhrrmb477v-37tfw0ft22.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zc220fbye5-hrwsygsryq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pljd4vs9cl-pk9g2wxc8p.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\b6fcarsteq-ft3s53vfgj.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bvhituu6en-6cfz1n2cew.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\n2w7qnnblp-6pdc2jztkx.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3jte8vk7jx-493y06b0oq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wx56hjlv26-iovd86k7lj.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0p65nloy2i-vr1egmr9el.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8xeka1rmbc-kbrnm935zg.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\mcqa2itf2b-jj8uyg4cgr.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wadblzin10-y7v9cxd14o.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\a15l1d8th4-notf2xhcfb.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\kzf040r11h-h1s4sie4z3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wi07bgt4mk-63fj8s7r0e.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s5wl8m3tsh-0j3bgjxly4.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wzq0hdjjhe-47otxtyo56.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s6oll6ih4m-4v8eqarkd7.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\p24tw1vln6-356vix0kms.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\c5omz8kmhc-83jwlth58m.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d98pxcb1hw-mrlpezrjn3.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hpuom5cyly-lzl9nlhx6b.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8ukynm35jb-ag7o75518u.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\6dbv8yqymd-x0q3zqp4vz.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\elbozhzy3c-0i3buxo5is.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wqkudmgdnn-o1o13a6vjx.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\raq9x5w9yq-ttgo8qnofa.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\sz0njghf2f-2z0ns9nrw6.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uqlrqt7gu5-muycvpuwrr.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\75cdvzzdiv-87fc7y1x7t.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4w6gu013d0-mlv21k5csn.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.development.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectM.83DF0853.Up2Date
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.dll
-J:\Project\ProjectManagement\obj\Debug\net9.0\refint\ProjectManagement.dll
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.pdb
-J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.genruntimeconfig.cache
-J:\Project\ProjectManagement\obj\Debug\net9.0\ref\ProjectManagement.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Framework.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Newtonsoft.Json.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Common.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Configuration.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Frameworks.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.LibraryModel.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Packaging.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.ProjectModel.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Protocol.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Versioning.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\af\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ar\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\az\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\bg\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\da\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\el\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fa\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\he\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\hr\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\hu\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\hy\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\id\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\is\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ku\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\lv\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\mt\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\nb\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\nl\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ro\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\sk\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\sl\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\sr\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\sv\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\uk\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\vi\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.core.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-J:\Project\ProjectManagement\bin\Debug\net9.0\libman.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\package-lock.json
-J:\Project\ProjectManagement\bin\Debug\net9.0\package.json
-J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\agb0zgjr5c-mwen4za2zq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4cgo1r8iap-mwen4za2zq.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hexbdc8yr3-3w7jejt5b1.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uonghg2mcz-1za78g898y.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0epvq7uyd8-7xj2xr1d2u.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\mcjeptphdt-5vvclzyg2u.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vuy6zaxcx5-by7qm3p5ay.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3d0uglreso-2gtq6aaaas.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rvu6ygzbd0-1gn9y0qw56.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\br0gx8s7ab-rfiktk1e1o.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\7cmslf8r8e-vtm9dvzpet.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0254b15hji-jmgwmyfb49.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qbi2k8g9zt-lvs26kliyv.gz
-J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\v6r70vxc2m-z9jnjllrhx.gz
 C:\Users\Admin\Desktop\New folder\ProjectManagement\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Admin\Desktop\New folder\ProjectManagement\bin\Debug\net9.0\appsettings.json
 C:\Users\Admin\Desktop\New folder\ProjectManagement\bin\Debug\net9.0\libman.json
@@ -902,3 +451,904 @@ C:\Users\Admin\Desktop\New folder\ProjectManagement\obj\Debug\net9.0\refint\Proj
 C:\Users\Admin\Desktop\New folder\ProjectManagement\obj\Debug\net9.0\ProjectManagement.pdb
 C:\Users\Admin\Desktop\New folder\ProjectManagement\obj\Debug\net9.0\ProjectManagement.genruntimeconfig.cache
 C:\Users\Admin\Desktop\New folder\ProjectManagement\obj\Debug\net9.0\ref\ProjectManagement.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\libman.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\package-lock.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\package.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.endpoints.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\appsettings.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.exe
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.deps.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ProjectManagement.pdb
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\scopedcss\bundle\ProjectManagement.styles.css
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\scopedcss\projectbundle\ProjectManagement.bundle.scp.css
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\hexbdc8yr3-3w7jejt5b1.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\uonghg2mcz-1za78g898y.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\0epvq7uyd8-7xj2xr1d2u.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\mcjeptphdt-5vvclzyg2u.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\vuy6zaxcx5-by7qm3p5ay.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\3d0uglreso-2gtq6aaaas.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\rvu6ygzbd0-1gn9y0qw56.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\br0gx8s7ab-rfiktk1e1o.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\6224n93caw-lugek5hnai.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\2rct17bi3h-61n19gt1b8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\7cmslf8r8e-vtm9dvzpet.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\0254b15hji-jmgwmyfb49.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\qbi2k8g9zt-lvs26kliyv.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\v6r70vxc2m-z9jnjllrhx.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\2nz3zoai8s-fr7q2aak1r.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\klbd5rkez4-bqjiyaj88i.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\xir4wb3plb-c2jlpeoesf.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\vy35kyi9bj-erw9l3u2r3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\dzsu2abbyt-aexeepp0ev.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\pusgcnizdy-d7shbmvgxk.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\jbi0wivfcx-ausgxo2sd3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\tkv49p4bpp-k8d9w2qqmf.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\xdeo3uivuk-cosvhxvwiu.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\bhvezxzws5-ub07r2b239.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wse34dbqh5-fvhpjtyr6v.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\xbpp620cnh-b7pk76d08c.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\nj04ge42ll-fsbi9cje9m.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\p8k6qlvtsq-rzd6atqjts.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ea4br7ivzw-ee0r1s7dh0.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ul6mhk758b-dxx9fxp4il.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\g08a6q4rel-jd9uben2k1.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\755q644ra4-khv3u5hwcm.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\d3g8utiexh-r4e9w2rdcm.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\rrhnkg87xs-lcd1t2u6c8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\4xaxqxk6fb-c2oey78nd0.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\ih9hm5qg5m-tdbxkamptv.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\zci1ubye0z-j5mq2jizvt.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\91dkzxhxh1-06098lyss8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\259zinroj7-nvvlpmu67g.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\cmbpu5mqkb-s35ty4nyc5.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\4jf19fbmn1-pj5nd1wqec.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\gtk0kxx2fl-46ein0sx1k.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\jjalr4hwr3-v0zj4ognzu.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\qhrrmb477v-37tfw0ft22.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\zc220fbye5-hrwsygsryq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\pljd4vs9cl-pk9g2wxc8p.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\b6fcarsteq-ft3s53vfgj.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\bvhituu6en-6cfz1n2cew.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\n2w7qnnblp-6pdc2jztkx.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\3jte8vk7jx-493y06b0oq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wx56hjlv26-iovd86k7lj.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\0p65nloy2i-vr1egmr9el.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\8xeka1rmbc-kbrnm935zg.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\mcqa2itf2b-jj8uyg4cgr.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wadblzin10-y7v9cxd14o.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\a15l1d8th4-notf2xhcfb.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\kzf040r11h-h1s4sie4z3.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wi07bgt4mk-63fj8s7r0e.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\s5wl8m3tsh-0j3bgjxly4.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wzq0hdjjhe-47otxtyo56.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\s6oll6ih4m-4v8eqarkd7.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\p24tw1vln6-l3n5xuwxn8.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\c5omz8kmhc-ilo7uva0vt.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\d98pxcb1hw-qlccset4i1.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\hpuom5cyly-lzl9nlhx6b.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\8ukynm35jb-ag7o75518u.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\6dbv8yqymd-xzw0cte36n.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\elbozhzy3c-0i3buxo5is.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\wqkudmgdnn-o1o13a6vjx.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\raq9x5w9yq-ttgo8qnofa.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\sz0njghf2f-2z0ns9nrw6.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\uqlrqt7gu5-muycvpuwrr.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\75cdvzzdiv-87fc7y1x7t.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\4w6gu013d0-jfsiqqwiad.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\agb0zgjr5c-mwen4za2zq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\compressed\4cgo1r8iap-mwen4za2zq.gz
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectM.83DF0853.Up2Date
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\refint\ProjectManagement.dll
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.pdb
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ProjectManagement.genruntimeconfig.cache
+C:\Users\Admin\Desktop\New folder (2)\ProjectManagement\obj\Debug\net9.0\ref\ProjectManagement.dll
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.AssemblyReference.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\rpswa.dswa.cache.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.GeneratedMSBuildEditorConfig.editorconfig
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfoInputs.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.AssemblyInfo.cs
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.csproj.CoreCompileInputs.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cs
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.MvcApplicationPartsAssemblyInfo.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.RazorAssemblyInfo.cs
+J:\Project\ProjectManagement\bin\Debug\net9.0\appsettings.Development.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\appsettings.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\libman.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\package-lock.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\package.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.runtime.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.staticwebassets.endpoints.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.exe
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.deps.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.runtimeconfig.json
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ProjectManagement.pdb
+J:\Project\ProjectManagement\bin\Debug\net9.0\Azure.Core.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Azure.Identity.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Humanizer.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\Newtonsoft.Json.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Common.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Configuration.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Frameworks.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.LibraryModel.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Packaging.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.ProjectModel.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Protocol.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\NuGet.Versioning.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.ClientModel.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.CodeDom.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Convention.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Memory.Data.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\af\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ar\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\az\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\bg\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\da\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\el\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fa\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\he\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\hr\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\hu\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\hy\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\id\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\is\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ku\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\lv\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\mt\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\nb\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\nl\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ro\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\sk\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\sl\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\sr\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\sv\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\uk\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\vi\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+J:\Project\ProjectManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+J:\Project\ProjectManagement\obj\Debug\net9.0\rjimswa.dswa.cache.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\bundle\ProjectManagement.styles.css
+J:\Project\ProjectManagement\obj\Debug\net9.0\scopedcss\projectbundle\ProjectManagement.bundle.scp.css
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hexbdc8yr3-3w7jejt5b1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uonghg2mcz-1za78g898y.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0epvq7uyd8-7xj2xr1d2u.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\mcjeptphdt-5vvclzyg2u.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vuy6zaxcx5-by7qm3p5ay.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3d0uglreso-2gtq6aaaas.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rvu6ygzbd0-1gn9y0qw56.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\br0gx8s7ab-rfiktk1e1o.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\6224n93caw-lugek5hnai.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2rct17bi3h-61n19gt1b8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\7cmslf8r8e-vtm9dvzpet.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0254b15hji-jmgwmyfb49.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qbi2k8g9zt-lvs26kliyv.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\v6r70vxc2m-z9jnjllrhx.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\2nz3zoai8s-fr7q2aak1r.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\klbd5rkez4-bqjiyaj88i.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xir4wb3plb-c2jlpeoesf.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\vy35kyi9bj-erw9l3u2r3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\dzsu2abbyt-aexeepp0ev.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pusgcnizdy-d7shbmvgxk.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\jbi0wivfcx-ausgxo2sd3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\tkv49p4bpp-k8d9w2qqmf.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xdeo3uivuk-cosvhxvwiu.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bhvezxzws5-ub07r2b239.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wse34dbqh5-fvhpjtyr6v.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\xbpp620cnh-b7pk76d08c.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\nj04ge42ll-fsbi9cje9m.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\p8k6qlvtsq-rzd6atqjts.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ea4br7ivzw-ee0r1s7dh0.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ul6mhk758b-dxx9fxp4il.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\g08a6q4rel-jd9uben2k1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\755q644ra4-khv3u5hwcm.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d3g8utiexh-r4e9w2rdcm.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\rrhnkg87xs-lcd1t2u6c8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4xaxqxk6fb-c2oey78nd0.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\ih9hm5qg5m-tdbxkamptv.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zci1ubye0z-j5mq2jizvt.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\91dkzxhxh1-06098lyss8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\259zinroj7-nvvlpmu67g.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\cmbpu5mqkb-s35ty4nyc5.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4jf19fbmn1-pj5nd1wqec.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\gtk0kxx2fl-46ein0sx1k.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\jjalr4hwr3-v0zj4ognzu.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\qhrrmb477v-37tfw0ft22.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\zc220fbye5-hrwsygsryq.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\pljd4vs9cl-pk9g2wxc8p.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\b6fcarsteq-ft3s53vfgj.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\bvhituu6en-6cfz1n2cew.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\n2w7qnnblp-6pdc2jztkx.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\3jte8vk7jx-493y06b0oq.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wx56hjlv26-iovd86k7lj.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\0p65nloy2i-vr1egmr9el.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8xeka1rmbc-kbrnm935zg.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\mcqa2itf2b-jj8uyg4cgr.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wadblzin10-y7v9cxd14o.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\a15l1d8th4-notf2xhcfb.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\kzf040r11h-h1s4sie4z3.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wi07bgt4mk-63fj8s7r0e.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s5wl8m3tsh-0j3bgjxly4.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wzq0hdjjhe-47otxtyo56.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\s6oll6ih4m-4v8eqarkd7.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\p24tw1vln6-l3n5xuwxn8.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\c5omz8kmhc-ilo7uva0vt.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\d98pxcb1hw-qlccset4i1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\hpuom5cyly-lzl9nlhx6b.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\8ukynm35jb-ag7o75518u.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\6dbv8yqymd-xzw0cte36n.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\elbozhzy3c-0i3buxo5is.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\wqkudmgdnn-o1o13a6vjx.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\raq9x5w9yq-ttgo8qnofa.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\sz0njghf2f-2z0ns9nrw6.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\uqlrqt7gu5-muycvpuwrr.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\75cdvzzdiv-87fc7y1x7t.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4w6gu013d0-jfsiqqwiad.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\agb0zgjr5c-na54wn3zx1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\compressed\4cgo1r8iap-na54wn3zx1.gz
+J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.json.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.development.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+J:\Project\ProjectManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectM.83DF0853.Up2Date
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.dll
+J:\Project\ProjectManagement\obj\Debug\net9.0\refint\ProjectManagement.dll
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.pdb
+J:\Project\ProjectManagement\obj\Debug\net9.0\ProjectManagement.genruntimeconfig.cache
+J:\Project\ProjectManagement\obj\Debug\net9.0\ref\ProjectManagement.dll

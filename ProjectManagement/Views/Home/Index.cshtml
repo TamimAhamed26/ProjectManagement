@@ -1,8 +1,29 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Welcome";
+    var isAuthenticated = User.Identity?.IsAuthenticated ?? false;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5 text-center">
+    <h1 class="fw-bold text-primary mb-3"> Welcome to Project Management System</h1>
+    <p class="lead text-muted mb-4">
+        Manage tasks, track progress, and collaborate efficiently.
+    </p>
+
+    @if (!isAuthenticated)
+    {
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-lg btn-primary">
+            <i class="bi bi-box-arrow-in-right"></i> Login
+        </a>
+    }
+    else
+    {
+        <div class="alert alert-warning mt-4">
+            You are already logged in. Redirecting you to your dashboard...
+        </div>
+        <script>
+            setTimeout(() => {
+                window.location.href = '@Url.Action("AIndex", "Home")';
+            }, 1500);
+        </script>
+    }
 </div>
