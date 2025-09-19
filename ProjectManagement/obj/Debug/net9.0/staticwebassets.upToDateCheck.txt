@@ -112,6 +112,7 @@ wwwroot\Pictures\6133472b-e1df-4c79-ba95-97d33843606b.png
 wwwroot\Pictures\6a45f484-0784-4ed9-a2e4-deaebba139ae.jpg
 wwwroot\Pictures\870a71b5-c8e4-4675-8742-626afd9c679f.jpeg
 wwwroot\Pictures\default-profile.png
+wwwroot\TaskSubmissions\60bf9627-63bd-47bb-8104-b8d0f514d5d0.pdf
 J:\Project\ProjectManagement\wwwroot\css\adminlte.css
 J:\Project\ProjectManagement\wwwroot\css\adminlte.css.map
 J:\Project\ProjectManagement\wwwroot\css\adminlte.min.css

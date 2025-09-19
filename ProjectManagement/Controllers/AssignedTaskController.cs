@@ -145,7 +145,7 @@ namespace ProjectManagement.Controllers
 
 
 
-        [Authorize(Roles = "SuperAdmin,Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Assign()
         {
             var departments = await _context.Departments.ToListAsync();
@@ -163,7 +163,7 @@ namespace ProjectManagement.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin,Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Assign(AssignTaskViewModel model)
         {
             if (!ModelState.IsValid)
@@ -189,7 +189,6 @@ namespace ProjectManagement.Controllers
                 ReferenceLink = model.ReferenceLink
             };
 
-            // reference file if uploaded
             if (model.ReferenceFile != null)
             {
                 try
@@ -244,7 +243,63 @@ namespace ProjectManagement.Controllers
 
             return Json(filtered);
         }
+        [Authorize(Roles = "Admin,Manager,SuperAdmin")]
+        [HttpPost]
+        public async Task<IActionResult> UpdateReference(int id, IFormFile? ReferenceFile, string? ReferenceLink)
+        {
+            var task = await _context.AssignedTasks.FindAsync(id);
+            if (task == null)
+            {
+                TempData["Error"] = "Task not found.";
+                return RedirectToAction(nameof(AIndex));
+            }
 
+            if (ReferenceFile != null)
+            {
+                try
+                {
+                    if (!string.IsNullOrEmpty(task.ReferenceFilePath))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", task.ReferenceFilePath.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+
+                    task.ReferenceFilePath = await SaveFileAsync(ReferenceFile, "TaskReferences");
+                    task.ReferenceLink = null;
+                }
+                catch (Exception ex)
+                {
+                    TempData["Error"] = ex.Message;
+                    return RedirectToAction(nameof(AIndex));
+                }
+            }
+            else if (!string.IsNullOrWhiteSpace(ReferenceLink))
+            {
+                if (!string.IsNullOrEmpty(task.ReferenceFilePath))
+                {
+                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", task.ReferenceFilePath.TrimStart('/'));
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                task.ReferenceLink = ReferenceLink.Trim();
+                task.ReferenceFilePath = null; 
+            }
+            else
+            {
+                TempData["Error"] = "Please provide either a reference file or a link.";
+                return RedirectToAction(nameof(AIndex));
+            }
+
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Reference updated successfully.";
+            return RedirectToAction(nameof(AIndex));
+        }
         [HttpGet]
         [Authorize(Roles = "SuperAdmin,Admin")]
         public async Task<IActionResult> GetCategoriesByDepartment(int departmentId)
@@ -276,13 +331,12 @@ namespace ProjectManagement.Controllers
         [Authorize(Roles = "Employee")]
         [HttpPost]
         public async Task<IActionResult> UpdateStatus(
-     int id,
-     ProjectManagement.Models.TaskStatus? newStatus,
-     IFormFile? submissionFile,
-     string? submissionLink,
-     string? remark,
-     string? returnUrl 
- )
+      int id,
+      ProjectManagement.Models.TaskStatus? newStatus,
+      IFormFile? submissionFile,
+      string? submissionLink,
+      string? remark,
+      string? returnUrl)
         {
             var user = await _userManager.GetUserAsync(User);
             var task = await _context.AssignedTasks.FindAsync(id);
@@ -290,70 +344,81 @@ namespace ProjectManagement.Controllers
             if (task == null || task.UserId != user.Id)
                 return Unauthorized();
 
-            // Auto mark overdue
-            if (task.Status != ProjectManagement.Models.TaskStatus.Completed &&
-                task.DueDate.Date < DateTime.Today)
-            {
-                task.Status = ProjectManagement.Models.TaskStatus.Overdue;
-            }
-
-            // Add remark
             if (!string.IsNullOrWhiteSpace(remark) &&
                 task.Status != ProjectManagement.Models.TaskStatus.Completed)
             {
+                var entry = $"[Remark by {user.UserName} at {DateTime.Now}] {remark.Trim()}";
                 task.Remarks = string.IsNullOrWhiteSpace(task.Remarks)
-                    ? $"[Remark by {user.UserName} at {DateTime.Now}] {remark.Trim()}"
-                    : $"{task.Remarks}\n[Remark by {user.UserName} at {DateTime.Now}] {remark.Trim()}";
+                    ? entry
+                    : $"{task.Remarks}\n{entry}";
+            }
+
+            if (submissionFile != null)
+            {
+                try
+                {
+                    if (!string.IsNullOrEmpty(task.SubmissionFilePath))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", task.SubmissionFilePath.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+
+                    task.SubmissionFilePath = await SaveFileAsync(submissionFile, "TaskSubmissions");
+                    task.SubmissionLink = null; 
+                catch (Exception ex)
+                {
+                    TempData["Error"] = ex.Message;
+                    return RedirectToAction(nameof(EIndex));
+                }
+            }
+            else if (!string.IsNullOrWhiteSpace(submissionLink))
+            {
+            
+                if (!string.IsNullOrEmpty(task.SubmissionFilePath))
+                {
+                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", task.SubmissionFilePath.TrimStart('/'));
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                task.SubmissionLink = submissionLink.Trim();
+                task.SubmissionFilePath = null; 
             }
 
             if (newStatus.HasValue)
             {
-                switch (task.Status)
+                var requested = newStatus.Value;
+
+                if (task.Status == ProjectManagement.Models.TaskStatus.Pending &&
+                    requested == ProjectManagement.Models.TaskStatus.InProgress)
                 {
-                    case ProjectManagement.Models.TaskStatus.Pending:
-                        if (newStatus == ProjectManagement.Models.TaskStatus.InProgress)
-                            task.Status = ProjectManagement.Models.TaskStatus.InProgress;
-                        else if (newStatus == ProjectManagement.Models.TaskStatus.Completed)
-                            task.Status = ProjectManagement.Models.TaskStatus.PendingConfirmation;
-                        break;
-
-                    case ProjectManagement.Models.TaskStatus.InProgress:
-                    case ProjectManagement.Models.TaskStatus.Overdue:
-                        if (newStatus == ProjectManagement.Models.TaskStatus.Completed)
-                            task.Status = ProjectManagement.Models.TaskStatus.PendingConfirmation;
-                        break;
-
-                    case ProjectManagement.Models.TaskStatus.PendingConfirmation:
-                        if (newStatus == ProjectManagement.Models.TaskStatus.InProgress)
-                            task.Status = ProjectManagement.Models.TaskStatus.InProgress;
-                        break;
-
-                    default:
-                        TempData["Error"] = "Invalid status transition.";
-                        return RedirectToAction(nameof(EIndex));
+                    task.Status = ProjectManagement.Models.TaskStatus.InProgress;
                 }
-
-                if (submissionFile != null)
+                else if ((task.Status == ProjectManagement.Models.TaskStatus.InProgress ||
+                          task.Status == ProjectManagement.Models.TaskStatus.Overdue) &&
+                         requested == ProjectManagement.Models.TaskStatus.Completed)
                 {
-                    try
-                    {
-                        task.SubmissionFilePath = await SaveFileAsync(submissionFile, "TaskSubmissions");
-                    }
-                    catch (Exception ex)
-                    {
-                        TempData["Error"] = ex.Message;
-                        return RedirectToAction(nameof(EIndex));
-                    }
-                }
-
-                if (!string.IsNullOrWhiteSpace(submissionLink))
-                {
-                    task.SubmissionLink = submissionLink.Trim();
-                }
-
-                if (task.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation)
+                    task.Status = ProjectManagement.Models.TaskStatus.PendingConfirmation;
                     task.SubmitDate = DateTime.Now;
+                }
+                else if (task.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation &&
+                         requested == ProjectManagement.Models.TaskStatus.InProgress)
+                {
+                    task.Status = ProjectManagement.Models.TaskStatus.InProgress;
+                }
+                else
+                {
+                    TempData["Error"] = "Invalid status transition.";
+                    return RedirectToAction(nameof(EIndex));
+                }
             }
+
+            task.UpdateOverdueStatus();
 
             await _context.SaveChangesAsync();
 
@@ -362,7 +427,6 @@ namespace ProjectManagement.Controllers
 
             return RedirectToAction(nameof(EIndex));
         }
-
 
         [Authorize(Roles = "SuperAdmin,Admin,Manager")]
         [HttpPost]

@@ -57,16 +57,26 @@ namespace ProjectManagement.Models
 
         public void UpdateOverdueStatus()
         {
-            if ((Status == TaskStatus.InProgress || Status == TaskStatus.PendingConfirmation)
-                && DueDate.Date < DateTime.Today)
+           
+            if (Status == TaskStatus.PendingConfirmation)
+            {
+                return;
+            }
+
+            if (Status == TaskStatus.Pending)
+            {
+                return;
+            }
+
+            if (Status == TaskStatus.InProgress && DueDate.Date < DateTime.Today)
             {
                 Status = TaskStatus.Overdue;
+                return;
             }
-            else { 
-                if (Status == TaskStatus.Overdue && DueDate.Date >= DateTime.Today)
-                {
-                    Status = TaskStatus.InProgress;  
-                }
+
+            if (Status == TaskStatus.Overdue && DueDate.Date >= DateTime.Today)
+            {
+                Status = TaskStatus.InProgress;
             }
         }
 

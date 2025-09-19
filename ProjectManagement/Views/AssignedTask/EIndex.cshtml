@@ -51,22 +51,6 @@
                         }
                     </select>
                 </div>
-                <div class="col-md-3 position-relative">
-                    <label class="form-label">Filter by Due Date</label>
-                    <div class="input-group">
-                        <select id="dueFilter" class="form-select">
-                            <option value="">-- All Time --</option>
-                            <option value="7">Within 7 Days</option>
-                            <option value="15">Within 15 Days</option>
-                            <option value="30">Within 30 Days</option>
-                            <option value="custom">Select Date...</option>
-                        </select>
-                        <span class="input-group-text bg-white border-start-0">
-                            <i class="bi bi-calendar-event"></i>
-                        </span>
-                    </div>
-                    <input type="date" id="customDatePicker" class="form-control mt-2 d-none" />
-                </div>
                 <div class="col-md-auto">
                     <button id="clearFilters" class="btn btn-outline-secondary w-100 mt-3">
                         <i class="bi bi-x-circle"></i> Clear
@@ -87,13 +71,12 @@
             }
             else
             {
-                @foreach (var item in Model
-                            )
+                @foreach (var item in Model)
                 {
                     var isHighlighted = viewingSingle && taskId == item.AssignedTaskId.ToString();
                     <div class="col-md-6 col-lg-4 task-card @(isHighlighted ? "highlight-task" : "")"
-                         data-duedate="@item.DueDate.ToString("yyyy-MM-dd")"
-                         data-status="@item.Status">
+                         data-status="@item.Status"
+                         data-has-submission="@(!string.IsNullOrEmpty(item.SubmissionFilePath) || !string.IsNullOrEmpty(item.SubmissionLink))">
                         <div class="card shadow-sm border-0 h-100">
                             <div class="card-body d-flex flex-column">
 
@@ -103,7 +86,7 @@
                                         @(string.IsNullOrWhiteSpace(item.Task?.Title) ? "Untitled Task" : item.Task.Title)
                                     </h5>
                                     <span class="badge rounded-pill
-                                                        @(item.Status == ProjectManagement.Models.TaskStatus.Pending ? "bg-secondary" :
+                                                          @(item.Status == ProjectManagement.Models.TaskStatus.Pending ? "bg-secondary" :
                                                                                               item.Status == ProjectManagement.Models.TaskStatus.InProgress ? "bg-warning text-dark" :
                                                                                               item.Status == ProjectManagement.Models.TaskStatus.Completed ? "bg-success" :
                                                                                               item.Status == ProjectManagement.Models.TaskStatus.Overdue ? "bg-danger" :
@@ -182,7 +165,7 @@
 
                                 <!-- Actions -->
                                 <div class="mt-auto">
-                                    <form asp-action="UpdateStatus" method="post" enctype="multipart/form-data">
+                                    <form asp-action="UpdateStatus" method="post" enctype="multipart/form-data" class="submission-form">
                                         <input type="hidden" name="id" value="@item.AssignedTaskId" />
                                         <input type="hidden" name="returnUrl" value="@returnUrl" />
 
@@ -254,71 +237,63 @@
 </style>
 
 @section Scripts {
-    @if (!viewingSingle)
-    {
-        <script>
-            const taskCards = document.querySelectorAll(".task-card");
-            const statusFilter = document.getElementById("statusFilter");
-            const dueFilter = document.getElementById("dueFilter");
-            const customDatePicker = document.getElementById("customDatePicker");
-            const clearFilters = document.getElementById("clearFilters");
+    <script>
+        document.querySelectorAll(".toggle-submission").forEach(radio => {
+            radio.addEventListener("change", function () {
+                let taskId = this.getAttribute("data-taskid");
+                let fileInput = document.getElementById("submissionFile-" + taskId);
+                let linkInput = document.getElementById("submissionLink-" + taskId);
 
-            function applyFilters() {
-                const today = new Date();
-                const dueVal = dueFilter.value;
-                const selectedStatus = statusFilter.value;
+                if (this.value === "file") {
+                    fileInput.classList.remove("d-none");
+                    linkInput.classList.add("d-none");
+                } else {
+                    fileInput.classList.add("d-none");
+                    linkInput.classList.remove("d-none");
+                }
+            });
+        });
 
-                taskCards.forEach(card => {
-                    const cardDate = new Date(card.getAttribute("data-duedate"));
-                    const cardStatus = card.getAttribute("data-status");
+        document.querySelectorAll(".submission-form").forEach(form => {
+            form.addEventListener("submit", function (event) {
+                const taskCard = form.closest(".task-card");
+                const hasSubmission = taskCard.getAttribute("data-has-submission") === "True";
+                const fileInput = form.querySelector("input[type='file']");
+                const linkInput = form.querySelector("input[type='url']");
+                const hasNewSubmission = (fileInput && fileInput.files.length > 0) || (linkInput && linkInput.value.trim() !== "");
 
-                    const statusMatch = !selectedStatus || cardStatus === selectedStatus;
+                if (hasSubmission && hasNewSubmission) {
+                    if (!confirm("Your existing submission will be replaced and the old file or link will be deleted. Are you sure?")) {
+                        event.preventDefault();
+                    }
+                }
+            });
+        });
 
-                    let dateMatch = true;
-                    if (dueVal === "7" || dueVal === "15" || dueVal === "30") {
-                        const maxDate = new Date();
-                        maxDate.setDate(today.getDate() + parseInt(dueVal));
-                        dateMatch = cardDate >= today && cardDate <= maxDate;
-                    } else if (dueVal === "custom" && customDatePicker.value) {
-                        const selectedDate = new Date(customDatePicker.value);
-                        dateMatch = cardDate.toDateString() === selectedDate.toDateString();
+        @if (!viewingSingle)
+        {
+                <script>
+                    const taskCards = document.querySelectorAll(".task-card");
+                    const statusFilter = document.getElementById("statusFilter");
+                    const clearFilters = document.getElementById("clearFilters");
+
+                    function applyFilters() {
+                        const selectedStatus = statusFilter.value;
+
+                        taskCards.forEach(card => {
+                            const cardStatus = card.getAttribute("data-status");
+                            const statusMatch = !selectedStatus || cardStatus === selectedStatus;
+                            card.style.display = statusMatch ? "" : "none";
+                        });
                     }
 
-                    card.style.display = (statusMatch && dateMatch) ? "" : "none";
-                });
-            }
-
-            document.querySelectorAll(".toggle-submission").forEach(radio => {
-                radio.addEventListener("change", function () {
-                    let taskId = this.getAttribute("data-taskid");
-                    let fileInput = document.getElementById("submissionFile-" + taskId);
-                    let linkInput = document.getElementById("submissionLink-" + taskId);
-
-                    if (this.value === "file") {
-                        fileInput.classList.remove("d-none");
-                        linkInput.classList.add("d-none");
-                    } else {
-                        fileInput.classList.add("d-none");
-                        linkInput.classList.remove("d-none");
-                    }
-                });
-            });
-
-            dueFilter.addEventListener("change", () => {
-                customDatePicker.classList.toggle("d-none", dueFilter.value !== "custom");
-                if (dueFilter.value !== "custom") customDatePicker.value = "";
-                applyFilters();
-            });
-            customDatePicker.addEventListener("change", applyFilters);
-            statusFilter.addEventListener("change", applyFilters);
-            clearFilters.addEventListener("click", () => {
-                dueFilter.value = "";
-                customDatePicker.value = "";
-                customDatePicker.classList.add("d-none");
-                statusFilter.value = "";
-                applyFilters();
-            });
-            applyFilters();
+                    statusFilter.addEventListener("change", applyFilters);
+                    clearFilters.addEventListener("click", () => {
+                        statusFilter.value = "";
+                        applyFilters();
+                    });
+                    applyFilters();
         </script>
-    }
+            }
+        </script>
 }
