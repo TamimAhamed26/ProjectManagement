@@ -62,13 +62,10 @@
                              alt="User Image"
                              style="width:32px; height:32px; object-fit:cover;" />
                         <span class="d-none d-md-inline">
-                            @User.Identity.Name
-                            @if (!string.IsNullOrEmpty(roleName))
-                            {
-                                <strong> (@roleName)</strong>
-                            }
+                            @await Component.InvokeAsync("UserInfo")
                         </span>
                     </a>
+
                     <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                         <!-- User Header -->
                         <li class="user-header text-bg-primary">

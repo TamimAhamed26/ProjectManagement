@@ -1,0 +1,13 @@
+﻿@model ProjectManagement.ViewComponents.UserInfoViewModel
+
+<div>
+    <strong>@Model.Name</strong>
+    @if (!string.IsNullOrEmpty(Model.Role))
+    {
+        <span class="text-muted">(@Model.Role)</span>
+    }
+    @if (!string.IsNullOrEmpty(Model.Department) && Model.Role.Contains("Employee"))
+    {
+        <div class="small text-info">Dept: @Model.Department</div>
+    }
+</div>

@@ -367,7 +367,8 @@ namespace ProjectManagement.Controllers
                     }
 
                     task.SubmissionFilePath = await SaveFileAsync(submissionFile, "TaskSubmissions");
-                    task.SubmissionLink = null; 
+                    task.SubmissionLink = null;
+                }
                 catch (Exception ex)
                 {
                     TempData["Error"] = ex.Message;

@@ -24,6 +24,11 @@
     var pendingConfirmationCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.PendingConfirmation);
     var overdueCount = Model.Count(t => t.Status == ProjectManagement.Models.TaskStatus.Overdue);
 }
+<div class="row">
+    <div class="col-md-6">
+        @await Component.InvokeAsync("UpcomingDeadlines", new { count = 5 })
+    </div>
+</div>
 
 <!-- Overview Cards -->
 <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
