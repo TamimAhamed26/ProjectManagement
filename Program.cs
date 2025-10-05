@@ -14,7 +14,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders()
     .AddDefaultUI();
-
+//OAuth
 builder.Services.AddAuthentication()
     .AddGoogle(options =>
     {

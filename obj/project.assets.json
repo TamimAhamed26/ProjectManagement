@@ -8497,11 +8497,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Project\\ProjectManagement\\ProjectManagement.csproj",
+      "projectUniqueName": "J:\\ProjectManagement-temp\\ProjectManagement.csproj",
       "projectName": "ProjectManagement",
-      "projectPath": "J:\\Project\\ProjectManagement\\ProjectManagement.csproj",
+      "projectPath": "J:\\ProjectManagement-temp\\ProjectManagement.csproj",
       "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
-      "outputPath": "J:\\Project\\ProjectManagement\\obj\\",
+      "outputPath": "J:\\ProjectManagement-temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\vs shared\\NuGetPackages"

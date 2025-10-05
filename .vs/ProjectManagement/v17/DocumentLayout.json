@@ -1,45 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\Project\\ProjectManagement\\",
+  "WorkspaceRootPath": "J:\\ProjectManagement-temp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\controllers\\assignedtaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:controllers\\assignedtaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\home\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\home\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\models\\assignedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\assignedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\assignedtask\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\assignedtask\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\views\\assignedtask\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\project\\projectmanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\controllers\\assignedtaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:controllers\\assignedtaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\models\\assignedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\assignedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\assignedtask\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\eindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\assignedtask\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\aindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\views\\assignedtask\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:views\\assignedtask\\assign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:models\\applicationdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|j:\\projectmanagement-temp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9909EEE8-519D-4964-AA10-D3415AC0F257}|ProjectManagement.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,93 +62,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T11:24:41.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AIndex.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\AIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\AssignedTask\\AIndex.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\AIndex.cshtml",
-              "RelativeToolTip": "Views\\AssignedTask\\AIndex.cshtml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T17:40:21.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EIndex.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\EIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\AssignedTask\\EIndex.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\EIndex.cshtml",
-              "RelativeToolTip": "Views\\AssignedTask\\EIndex.cshtml",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAAACoBAAABAAAAAAAAAA==",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\Home\\EIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EIndex.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\Home\\EIndex.cshtml",
+              "RelativeToolTip": "Views\\Home\\EIndex.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-18T15:52:19.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssignedTask.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Models\\AssignedTask.cs",
-              "RelativeDocumentMoniker": "Models\\AssignedTask.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Models\\AssignedTask.cs",
-              "RelativeToolTip": "Models\\AssignedTask.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T11:55:50.688Z",
+              "WhenOpened": "2025-10-05T17:23:01.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_navbar.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\Shared\\_navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_navbar.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\Shared\\_navbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_navbar.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAD4vz4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T14:46:59.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAK4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T14:46:25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AIndex.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\AIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AssignedTask\\AIndex.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\AIndex.cshtml",
+              "RelativeToolTip": "Views\\AssignedTask\\AIndex.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T17:40:21.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EIndex.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\EIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\AssignedTask\\EIndex.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\EIndex.cshtml",
+              "RelativeToolTip": "Views\\AssignedTask\\EIndex.cshtml",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAACoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-18T15:52:19.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssignedTask.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Models\\AssignedTask.cs",
+              "RelativeDocumentMoniker": "Models\\AssignedTask.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Models\\AssignedTask.cs",
+              "RelativeToolTip": "Models\\AssignedTask.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:55:50.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_sidebar.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\Shared\\_sidebar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_sidebar.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\Shared\\_sidebar.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\Shared\\_sidebar.cshtml",
               "RelativeToolTip": "Views\\Shared\\_sidebar.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-15T12:48:42.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:53:48.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:24:41.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AssignedTaskController.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Controllers\\AssignedTaskController.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Controllers\\AssignedTaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\AssignedTaskController.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Controllers\\AssignedTaskController.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Controllers\\AssignedTaskController.cs",
               "RelativeToolTip": "Controllers\\AssignedTaskController.cs",
-              "ViewState": "AgIAAJsBAAAAAAAAAAAuwIUBAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAuwK0BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T12:47:40.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Assign.cshtml",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\Assign.cshtml",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\Assign.cshtml",
               "RelativeDocumentMoniker": "Views\\AssignedTask\\Assign.cshtml",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Views\\AssignedTask\\Assign.cshtml",
+              "ToolTip": "J:\\ProjectManagement-temp\\Views\\AssignedTask\\Assign.cshtml",
               "RelativeToolTip": "Views\\AssignedTask\\Assign.cshtml",
               "ViewState": "AgIAAAQBAAAAAAAAAAAswBgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -144,11 +204,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbInitializer.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Models\\ApplicationDbInitializer.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Models\\ApplicationDbInitializer.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbInitializer.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Models\\ApplicationDbInitializer.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Models\\ApplicationDbInitializer.cs",
               "RelativeToolTip": "Models\\ApplicationDbInitializer.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,23 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T17:53:48.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DepartmentController.cs",
-              "DocumentMoniker": "J:\\Project\\ProjectManagement\\Controllers\\DepartmentController.cs",
+              "DocumentMoniker": "J:\\ProjectManagement-temp\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
-              "ToolTip": "J:\\Project\\ProjectManagement\\Controllers\\DepartmentController.cs",
+              "ToolTip": "J:\\ProjectManagement-temp\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
