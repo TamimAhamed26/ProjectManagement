@@ -250,4 +250,3 @@ Employees can **add remarks** or perform **single task updates**. <img width="14
 
 <img width="1397" height="774" alt="Single Task Update" src="https://github.com/user-attachments/assets/9f2be082-8c29-4766-86fd-152125531f2a" />
 ```
-Would you like me to include **“QuickStart”** (a 5-step minimal setup summary) right under the Table of Contents — similar to professional open-source READMEs?
