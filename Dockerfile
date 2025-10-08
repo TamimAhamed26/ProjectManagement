@@ -3,12 +3,11 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
 # Copy csproj and restore dependencies
-COPY ProjectManagement/*.csproj ./ProjectManagement/
-RUN dotnet restore ProjectManagement/*.csproj
+COPY *.csproj ./
+RUN dotnet restore
 
-# Copy everything else and build
-COPY ProjectManagement/. ./ProjectManagement/
-WORKDIR /app/ProjectManagement
+# Copy all files and publish
+COPY . ./
 RUN dotnet publish -c Release -o /app/publish
 
 # Stage 2: Run the app
